@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<autista
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.progetto.com/autista  autista.xsd"
+        xmlns="http://www.progetto.com/autista"
+
+        xmlns:common = "http://www.progetto.com/common"
+
+        codice="A001"
+
+        matricola="178882"
+>
+
+    <common:nome>Marco</common:nome>
+    <common:cognome>Beltrame</common:cognome>
+    <common:telefono>3403183848</common:telefono>
+
+</autista>

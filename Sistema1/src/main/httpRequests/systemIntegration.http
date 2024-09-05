@@ -1,0 +1,61 @@
+# Produzione file XML da scambiare con un altro Sistema Software
+# In questo progetto si fa riferimento a Sistema 3
+
+
+
+# Produce XML completo dell'intera ditta
+POST http://localhost:8080/ditta/api/systemintegration/producixml
+Accept: text/plain, text/xml
+
+###
+
+# Produce XML dei soli autisti
+POST http://localhost:8080/ditta/api/systemintegration/autisti/producixml
+Accept: text/plain, text/xml
+
+###
+
+# Produce XML delle sole linee
+POST http://localhost:8080/ditta/api/systemintegration/linee/producixml
+Accept: text/plain, text/xml
+
+###
+
+# Produce XML dei soli bus (elenco di autobus)
+POST http://localhost:8080/ditta/api/systemintegration/bus/producixml
+Accept: text/plain, text/xml
+
+###
+
+# Produce XML dei soli turni
+POST http://localhost:8080/ditta/api/systemintegration/turni/producixml
+Accept: text/plain, text/xml
+
+
+###
+
+
+# Invio file XML dell'intera ditta tramite socket (porta 8084)
+POST http://localhost:8080/ditta/api/systemintegration/ditta/inviaxml
+Accept: text/plain, text/xml
+
+###
+
+
+# Invio file XML degli autobus tramite socket (porta 8085)
+POST http://localhost:8080/ditta/api/systemintegration/bus/inviaxml
+Accept: text/plain, text/xml
+
+###
+
+
+# Invio file XML degli autisti tramite socket (porta 8086)
+POST http://localhost:8080/ditta/api/systemintegration/autisti/inviaxml
+Accept: text/plain, text/xml
+
+
+###
+
+# Invio file XML degli autisti tramite socket (porta 8087)
+POST http://localhost:8080/ditta/api/systemintegration/turni/inviaxml
+Accept: text/plain, text/xml

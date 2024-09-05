@@ -1,0 +1,71 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            targetNamespace="http://www.progetto.com/turno"
+            xmlns="http://www.progetto.com/turno"
+
+            xmlns:aut="http://www.progetto.com/autista"
+            xmlns:lin="http://www.progetto.com/linea"
+            xmlns:bus="http://www.progetto.com/autobus"
+
+            elementFormDefault="qualified"
+>
+
+    <!-- TODO: IMPORTS -->
+    <xsd:import schemaLocation="ditta.xsd"
+                namespace="http://www.progetto.com/ditta" />
+
+    <xsd:import schemaLocation="autista.xsd"
+                namespace="http://www.progetto.com/autista" />
+
+    <xsd:import schemaLocation="linea.xsd"
+                namespace="http://www.progetto.com/linea" />
+
+    <xsd:import schemaLocation="autobus.xsd"
+                namespace="http://www.progetto.com/autobus" />
+
+    <xsd:import schemaLocation="commonType.xsd"
+                namespace="http://www.progetto.com/common" />
+
+    <xsd:element name="turno" type="TurnoType"/>
+
+    <xsd:complexType name="TurnoType">
+        <xsd:sequence>
+            <xsd:element name="data" type="xsd:date"/>
+            <xsd:element name="ora_inizio" type="xsd:time"/>
+            <xsd:element name="ora_fine" type="xsd:time"/>
+
+            <xsd:element name="autista" type="AutistaType"/>
+            <xsd:element name="linea" type="LineaType" />
+            <xsd:element name="autobus" type="AutobusType" />
+
+        </xsd:sequence>
+        <xsd:attribute name="id" type="xsd:positiveInteger" use="required" />
+    </xsd:complexType>
+
+<xsd:complexType name="AutistaType">
+    <xsd:simpleContent>
+        <xsd:extension base="xsd:string">
+            <xsd:attribute name="codice" type="xsd:IDREF" use="required"/>
+        </xsd:extension>
+    </xsd:simpleContent>
+</xsd:complexType>
+
+<xsd:complexType name="LineaType">
+    <xsd:simpleContent>
+<!--        <xsd:extension base="lin:LineaType">-->
+        <xsd:extension base="xsd:string">
+            <xsd:attribute name="codice" type="xsd:IDREF" use="required"/>
+        </xsd:extension>
+    </xsd:simpleContent>
+</xsd:complexType>
+
+<xsd:complexType name="AutobusType">
+    <xsd:simpleContent>
+<!--        <xsd:extension base="bus:AutobusType"><xsd:extension base="bus:AutobusType"> -->
+        <!--        <xsd:extension base="bus:AutobusType"> -->
+        <xsd:extension base="xsd:string">
+            <xsd:attribute name="codice" type="xsd:IDREF" use="required"/>
+        </xsd:extension>
+    </xsd:simpleContent>
+</xsd:complexType>
+
+</xsd:schema>

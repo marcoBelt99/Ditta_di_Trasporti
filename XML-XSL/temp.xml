@@ -1,0 +1,333 @@
+ditta.xml
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="ditta.xsl" ?> <!-- collegamento all'xslt -->
+
+<ditta
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.progetto.com/ditta ditta.xsd"
+    xmlns="http://www.progetto.com/ditta"
+
+    xmlns:tur="http://www.progetto.com/turno"
+    xmlns:lin="http://www.progetto.com/linea"
+    xmlns:common="http://www.progetto.com/common"
+
+>
+
+    <nome>Pilotto Viaggi</nome>
+
+    <indirizzo>
+        <via>Via Santa Maddalena 14</via>
+        <cap>42121</cap>
+        <citta>Ferrara</citta>
+        <provincia codice="FE"></provincia>
+    </indirizzo>
+
+    <descrizione>
+        <![CDATA[
+           Da oltre 30 anni leader del trasporto privato su gomma.
+           Offriamo il miglior servizio di trasporto attraverso la conoscenza del cliente,
+           e investiamo sui migliori mezzi.
+        ]]>
+    </descrizione>
+
+    <autisti>
+        <autista codice="A001" matricola="123456">
+            <common:nome>Sara</common:nome>
+            <common:cognome>Morin</common:cognome>
+            <common:telefono>3487124599</common:telefono>
+        </autista>
+        <autista codice="A002" matricola="148881">
+            <common:nome>Mario</common:nome>
+            <common:cognome>Rossi</common:cognome>
+            <common:telefono>3403183848</common:telefono>
+        </autista>
+        <autista codice="A003" matricola="248282">
+            <common:nome>Alessandro</common:nome>
+            <common:cognome>Smacchia</common:cognome>
+            <common:telefono>3393183811</common:telefono>
+        </autista>
+        <autista codice="A004" matricola="248282">
+            <common:nome>Anna</common:nome>
+            <common:cognome>Zanellato</common:cognome>
+            <common:telefono>3147113858</common:telefono>
+        </autista>
+        <autista codice="A005" matricola="753159">
+            <common:nome>Giovanni</common:nome>
+            <common:cognome>Malengo</common:cognome>
+            <common:telefono>3562447558</common:telefono>
+        </autista>
+        <autista codice="A006" matricola="753159">
+            <common:nome>Paolo</common:nome>
+            <common:cognome>Borsellino</common:cognome>
+            <common:telefono>3568741577</common:telefono>
+        </autista>
+    </autisti>
+
+    <linee>
+        <linea codice="L001" num_linea="0013">
+            <lin:destinazione>Ferrara - Cona</lin:destinazione>
+        </linea>
+        <linea codice="L002" num_linea="0014">
+            <lin:destinazione>Ferrara - Boschetti</lin:destinazione>
+        </linea>
+        <linea codice="L003" num_linea="0015">
+            <lin:destinazione>Ferrara - Centro</lin:destinazione>
+        </linea>
+        <linea codice="L004" num_linea="0016">
+            <lin:destinazione>Ferrara - Stazione</lin:destinazione>
+        </linea>
+        <linea codice="L005" num_linea="0017">
+            <lin:destinazione>Ferrara - Sud</lin:destinazione>
+        </linea>
+
+    </linee>
+
+
+    <bus>
+        <autobus codice="B001" targa="AAA123ABCD" modello="AX09" capienza="52" />
+        <autobus codice="B002" targa="BBB325GHCL" modello="YB10" capienza="48" />
+        <autobus codice="B003" targa="CCC488ARPA" modello="CYCU" capienza="60" />
+        <autobus codice="B004" targa="DDD777BABA" modello="XXX1" capienza="58" />
+    </bus>
+
+
+    <turni>
+        <tur:turno id="000146">
+            <tur:data>2024-05-07</tur:data>
+            <tur:ora_inizio>13:30:00</tur:ora_inizio>
+            <tur:ora_fine>21:30:00</tur:ora_fine>
+
+            <tur:autista codice="A001" />
+            <tur:linea codice="L001"/>
+            <tur:autobus codice="B001" />
+
+        </tur:turno>
+
+        <tur:turno id="000147">
+            <tur:data>2024-05-08</tur:data>
+            <tur:ora_inizio>07:00:00</tur:ora_inizio>
+            <tur:ora_fine>15:00:00</tur:ora_fine>
+
+            <tur:autista codice="A002" />
+            <tur:linea codice="L002"/>
+            <tur:autobus codice="B003"/>
+
+        </tur:turno>
+
+        <tur:turno id="000148">
+            <tur:data>2024-05-09</tur:data>
+            <tur:ora_inizio>11:00:00</tur:ora_inizio>
+            <tur:ora_fine>19:00:00</tur:ora_fine>
+
+            <tur:autista codice="A004"></tur:autista>
+            <tur:linea codice="L004"></tur:linea>
+            <tur:autobus codice="B004"></tur:autobus>
+        </tur:turno>
+
+        <tur:turno id="000149">
+            <tur:data>2024-05-09</tur:data>
+            <tur:ora_inizio>07:15:00</tur:ora_inizio>
+            <tur:ora_fine>15:15:00</tur:ora_fine>
+
+            <tur:autista codice="A002"></tur:autista>
+            <tur:linea codice="L003"></tur:linea>
+            <tur:autobus codice="B001"></tur:autobus>
+        </tur:turno>
+
+        <tur:turno id="000150">
+            <tur:data>2024-05-09</tur:data>
+            <tur:ora_inizio>07:30:00</tur:ora_inizio>
+            <tur:ora_fine>15:00:00</tur:ora_fine>
+
+            <tur:autista codice="A004"></tur:autista>
+            <tur:linea codice="L005"></tur:linea>
+            <tur:autobus codice="B002"></tur:autobus>
+        </tur:turno>
+
+        <tur:turno id="000151">
+            <tur:data>2024-05-09</tur:data>
+            <tur:ora_inizio>15:30:00</tur:ora_inizio>
+            <tur:ora_fine>22:30:00</tur:ora_fine>
+
+            <tur:autista codice="A001"></tur:autista>
+            <tur:linea codice="L001"></tur:linea>
+            <tur:autobus codice="B002"></tur:autobus>
+        </tur:turno>
+
+        <tur:turno id="000152">
+            <tur:data>2024-05-09</tur:data>
+            <tur:ora_inizio>16:00:00</tur:ora_inizio>
+            <tur:ora_fine>20:30:00</tur:ora_fine>
+
+            <tur:autista codice="A002"></tur:autista>
+            <tur:linea codice="L003"></tur:linea>
+            <tur:autobus codice="B001"></tur:autobus>
+        </tur:turno>
+        
+    </turni>
+
+
+
+</ditta>
+
+___
+
+ditta.xsd
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            targetNamespace="http://www.progetto.com/ditta"
+            xmlns="http://www.progetto.com/ditta"
+
+            xmlns:common="http://www.progetto.com/common"
+            xmlns:aut="http://www.progetto.com/autista"
+            xmlns:lin="http://www.progetto.com/linea"
+            xmlns:bus="http://www.progetto.com/autobus"
+            xmlns:tur="http://www.progetto.com/turno"
+
+            elementFormDefault="qualified"
+>
+
+    <!-- TODO: IMPORTS -->
+    <xsd:import schemaLocation="commonType.xsd"
+                namespace="http://www.progetto.com/common"/>
+
+    <xsd:import schemaLocation="autista.xsd"
+                namespace="http://www.progetto.com/autista" />
+
+    <xsd:import schemaLocation="linea.xsd"
+                namespace="http://www.progetto.com/linea" />
+
+    <xsd:import schemaLocation="autobus.xsd"
+                namespace="http://www.progetto.com/autobus" />
+
+    <xsd:import schemaLocation="turno.xsd"
+                namespace="http://www.progetto.com/turno" />
+
+   <!-- TODO: elemento principale -->
+    <xsd:element name="ditta" type="DittaType"/>
+
+    <xsd:complexType name="DittaType">
+        <xsd:sequence>
+            <xsd:element name="nome" type="xsd:string"/>
+            <xsd:element name="indirizzo" type="IndirizzoType"/>
+            <xsd:element name="descrizione" type="xsd:string"/>
+            <xsd:element name="autisti" type="AutistiType" />
+            <xsd:element name="linee" type="LineeType" />
+            <xsd:element name="bus" type="BusType" />
+            <xsd:element name="turni" type="TurniType"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+
+    <xsd:complexType name="IndirizzoType">
+        <xsd:sequence>
+            <xsd:element name="via" type="xsd:string"/>
+            <xsd:element name="cap" type="common:CAPType"/>
+            <xsd:element name="citta" type="xsd:string"/>
+            <xsd:element name="provincia" type="ProvinciaType"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="ProvinciaType">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:string">
+                <xsd:attribute name="codice" type="common:CodiceProvinciaType"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+
+
+    <xsd:complexType name="AutistiType">
+        <xsd:sequence>
+            <xsd:element name="autista" type="AutistaType" maxOccurs="unbounded"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="LineeType">
+        <xsd:sequence>
+            <xsd:element name="linea" type="LineaType" maxOccurs="unbounded"  />
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="BusType">
+        <xsd:sequence>
+            <xsd:element name="autobus" type="AutobusType" maxOccurs="unbounded" />
+        </xsd:sequence>
+    </xsd:complexType>
+
+
+    <xsd:complexType name="AutistaType">
+        <xsd:complexContent>
+            <xsd:extension base="aut:AutistaType">
+<!--                <xsd:attribute name="codice" type="xsd:ID" />-->
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="LineaType">
+        <xsd:complexContent>
+            <xsd:extension base="lin:LineaType">
+<!--                <xsd:attribute name="codice" type="xsd:ID" />-->
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="AutobusType">
+        <xsd:complexContent>
+            <xsd:extension base="bus:AutobusType">
+<!--                <xsd:attribute name="codice" type="xsd:ID" />-->
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+
+    <xsd:complexType name="TurniType">
+        <xsd:sequence>
+        <xsd:element ref="tur:turno" maxOccurs="unbounded"/>
+<!--            <xsd:element name="turno" type="tur:TurnoType" maxOccurs="unbounded"/>-->
+        </xsd:sequence>
+    </xsd:complexType>
+
+
+
+</xsd:schema>
+
+___
+
+autista.xsd
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            targetNamespace="http://www.progetto.com/autista"
+            xmlns="http://www.progetto.com/autista"
+
+            xmlns:common="http://www.progetto.com/common"
+
+            elementFormDefault="qualified"
+
+>
+<!-- Imports -->
+    <xsd:import namespace="http://www.progetto.com/common"
+                schemaLocation="commonType.xsd" />
+
+    <xsd:element name="autista" type="AutistaType"/>
+
+    <!-- TODO: simpleContent
+        è utilizzato quando si desidera definire un elemento che ha un contenuto testuale semplice e,
+         contemporaneamente, estendere questo elemento aggiungendo attributi.
+    -->
+    <xsd:complexType name="AutistaType">
+        <xsd:complexContent>
+            <xsd:extension base="common:PersonaType">
+                <xsd:attribute name="codice" type="xsd:ID" use="required"/>
+                <xsd:attribute name="matricola" type="xsd:string" use="required"/>
+            </xsd:extension>
+        </xsd:complexContent>
+<!--        <xsd:sequence>-->
+<!--            <xsd:element name="persona" type="common:PersonaType"/>-->
+<!--        </xsd:sequence>-->
+
+    </xsd:complexType>
+
+
+</xsd:schema>

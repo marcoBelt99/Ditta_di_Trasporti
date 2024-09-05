@@ -1,0 +1,3015 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<d:ditta xmlns:common="http://www.progetto.com/common" xmlns:d="http://www.progetto.com/ditta" xmlns:tur="http://www.progetto.com/turno" xmlns:lin="http://www.progetto.com/linea">
+    <d:nome>Pilotto Viaggi</d:nome>
+    <d:indirizzo>
+        <d:via>Via Santa Maddalena 14</d:via>
+        <d:cap>42121</d:cap>
+        <d:citta>Ferrara</d:citta>
+        <d:provincia codice="FE"/>
+    </d:indirizzo>
+    <d:descrizione>Da oltre 30 anni leader del trasporto privato su gomma.
+           Offriamo il miglior servizio di trasporto attraverso la conoscenza del cliente,
+           e investiamo sui migliori mezzi.
+           Il servizio è esteso anche al basso veneto, e arriva fino a Padova!</d:descrizione>
+    <d:autisti>
+        <d:autista codice="A002" matricola="14888">
+            <common:nome>Marco</common:nome>
+            <common:cognome>Beltrame</common:cognome>
+            <common:telefono>3403183848</common:telefono>
+        </d:autista>
+        <d:autista codice="A004" matricola="14579">
+            <common:nome>Laura</common:nome>
+            <common:cognome>Baretta</common:cognome>
+            <common:telefono>3280140209</common:telefono>
+        </d:autista>
+        <d:autista codice="A005" matricola="14882">
+            <common:nome>Fasil</common:nome>
+            <common:cognome>Romagnollo</common:cognome>
+            <common:telefono>3213183748</common:telefono>
+        </d:autista>
+        <d:autista codice="A006" matricola="12347">
+            <common:nome>Philippo</common:nome>
+            <common:cognome>Girlandaio</common:cognome>
+            <common:telefono>3697499999</common:telefono>
+        </d:autista>
+        <d:autista codice="A009" matricola="14444">
+            <common:nome>Moira</common:nome>
+            <common:cognome>Beltrame</common:cognome>
+            <common:telefono>3962647895</common:telefono>
+        </d:autista>
+        <d:autista codice="A007" matricola="12125">
+            <common:nome>Marcello</common:nome>
+            <common:cognome>Bonfe</common:cognome>
+            <common:telefono>3366887441</common:telefono>
+        </d:autista>
+        <d:autista codice="A008" matricola="14799">
+            <common:nome>Diletta</common:nome>
+            <common:cognome>Biondi</common:cognome>
+            <common:telefono>3444423411</common:telefono>
+        </d:autista>
+        <d:autista codice="A003" matricola="14143">
+            <common:nome>Stella</common:nome>
+            <common:cognome>Pacicca</common:cognome>
+            <common:telefono>3666666422</common:telefono>
+        </d:autista>
+        <d:autista codice="A0010" matricola="12335">
+            <common:nome>Sonia</common:nome>
+            <common:cognome>Baldini</common:cognome>
+            <common:telefono>3222113422</common:telefono>
+        </d:autista>
+        <d:autista codice="A0011" matricola="14755">
+            <common:nome>Luca</common:nome>
+            <common:cognome>Mori</common:cognome>
+            <common:telefono>3262647822</common:telefono>
+        </d:autista>
+        <d:autista codice="A0012" matricola="14111">
+            <common:nome>Forza</common:nome>
+            <common:cognome>Mattia</common:cognome>
+            <common:telefono>3122566421</common:telefono>
+        </d:autista>
+        <d:autista codice="A0013" matricola="13225">
+            <common:nome>Cinzia</common:nome>
+            <common:cognome>Nguimeya</common:cognome>
+            <common:telefono>321641122</common:telefono>
+        </d:autista>
+        <d:autista codice="A0014" matricola="13333">
+            <common:nome>Massimo</common:nome>
+            <common:cognome>Gennaro</common:cognome>
+            <common:telefono>344441122</common:telefono>
+        </d:autista>
+    </d:autisti>
+    <d:linee>
+        <d:linea codice="L001" num_linea="1">
+            <lin:destinazione>Ferrara - Stazione</lin:destinazione>
+        </d:linea>
+        <d:linea codice="L002" num_linea="2">
+            <lin:destinazione>Ferrara - Aleotti</lin:destinazione>
+        </d:linea>
+        <d:linea codice="L003" num_linea="3">
+            <lin:destinazione>Ferrara - Centro</lin:destinazione>
+        </d:linea>
+        <d:linea codice="L004" num_linea="4">
+            <lin:destinazione>Ferrara - Nord</lin:destinazione>
+        </d:linea>
+        <d:linea codice="L005" num_linea="5">
+            <lin:destinazione>Ferrara - Sud</lin:destinazione>
+        </d:linea>
+        <d:linea codice="L006" num_linea="6">
+            <lin:destinazione>Ferrara - Est</lin:destinazione>
+        </d:linea>
+        <d:linea codice="L007" num_linea="7">
+            <lin:destinazione>Ferrara - Ovest</lin:destinazione>
+        </d:linea>
+        <d:linea codice="L008" num_linea="8">
+            <lin:destinazione>Ferrara - Fiere</lin:destinazione>
+        </d:linea>
+        <d:linea codice="L009" num_linea="9">
+            <lin:destinazione>Ferrara - Boschetti</lin:destinazione>
+        </d:linea>
+        <d:linea codice="L0010" num_linea="10">
+            <lin:destinazione>Ferrara - Cona</lin:destinazione>
+        </d:linea>
+        <d:linea codice="L0011" num_linea="11">
+            <lin:destinazione>Rovigo</lin:destinazione>
+        </d:linea>
+        <d:linea codice="L0012" num_linea="12">
+            <lin:destinazione>Adria</lin:destinazione>
+        </d:linea>
+        <d:linea codice="L0013" num_linea="13">
+            <lin:destinazione>Ariano nel Polesine</lin:destinazione>
+        </d:linea>
+        <d:linea codice="L0014" num_linea="14">
+            <lin:destinazione>Porto Tolle</lin:destinazione>
+        </d:linea>
+        <d:linea codice="L0015" num_linea="15">
+            <lin:destinazione>Chioggia</lin:destinazione>
+        </d:linea>
+        <d:linea codice="L0016" num_linea="16">
+            <lin:destinazione>Padova</lin:destinazione>
+        </d:linea>
+    </d:linee>
+    <d:bus>
+        <d:autobus codice="B0025" targa="ABC123XYZA" modello="MB Sprinter" capienza="20"/>
+        <d:autobus codice="B0026" targa="DEF456WXYZ" modello="Volvo 9700" capienza="50"/>
+        <d:autobus codice="B0027" targa="GHI789UVWX" modello="MAN Lion's City" capienza="30"/>
+        <d:autobus codice="B0028" targa="JKL012LMNO" modello="Iveco Crossway" capienza="40"/>
+        <d:autobus codice="B0029" targa="PQR345STUV" modello="Scania Touring" capienza="60"/>
+        <d:autobus codice="B0030" targa="WXY678MNOP" modello="Setra S 431 DT" capienza="45"/>
+        <d:autobus codice="B0031" targa="QWE901BCDE" modello="Solaris Urbino" capienza="35"/>
+        <d:autobus codice="B0032" targa="ZXC234FGHI" modello="Neoplan Cityliner" capienza="55"/>
+        <d:autobus codice="B0033" targa="VBN567JKLM" modello="Van Hool TX" capienza="25"/>
+        <d:autobus codice="B0034" targa="RTY890QRST" modello="Irizar i8" capienza="65"/>
+        <d:autobus codice="B0035" targa="ASD123NBVC" modello="VDL Futura" capienza="30"/>
+        <d:autobus codice="B0036" targa="FGH456TYUI" modello="Temsa Safari HD" capienza="50"/>
+        <d:autobus codice="B0037" targa="HJK789UIOP" modello="MCI J4500" capienza="40"/>
+        <d:autobus codice="B0038" targa="UIO012MKLP" modello="Dennis Trident 2" capienza="35"/>
+        <d:autobus codice="B0039" targa="BVC345UIOA" modello="Wright Eclipse" capienza="60"/>
+        <d:autobus codice="B0040" targa="QWE678FGRT" modello="Man NL202" capienza="45"/>
+        <d:autobus codice="B0041" targa="RTY901CVBN" modello="VDL Berkhof" capienza="55"/>
+        <d:autobus codice="B0042" targa="UIO234GFDS" modello="Volgren CR228L" capienza="70"/>
+        <d:autobus codice="B0043" targa="CVB567LKJH" modello="Optare Spectra" capienza="30"/>
+        <d:autobus codice="B0044" targa="FGH890PLOI" modello="Alexander Dennis" capienza="50"/>
+        <d:autobus codice="B0045" targa="JKL123MNBV" modello="Scania OmniExpress" capienza="35"/>
+        <d:autobus codice="B0046" targa="BNM456UIOP" modello="MB Citaro" capienza="65"/>
+        <d:autobus codice="B0047" targa="VBN789XCVB" modello="Ikarus EAG E94" capienza="40"/>
+        <d:autobus codice="B0048" targa="QWE012CVBN" modello="BYD K9" capienza="30"/>
+    </d:bus>
+    <d:turni>
+        <tur:turno id="515">
+            <tur:data>2024-01-03</tur:data>
+            <tur:ora_inizio>06:36:07</tur:ora_inizio>
+            <tur:ora_fine>09:36:07</tur:ora_fine>
+            <tur:autista codice="A008"/>
+            <tur:linea codice="L0010"/>
+            <tur:autobus codice="B0032"/>
+        </tur:turno>
+        <tur:turno id="516">
+            <tur:data>2024-01-03</tur:data>
+            <tur:ora_inizio>13:53:07</tur:ora_inizio>
+            <tur:ora_fine>21:53:07</tur:ora_fine>
+            <tur:autista codice="A009"/>
+            <tur:linea codice="L003"/>
+            <tur:autobus codice="B0026"/>
+        </tur:turno>
+        <tur:turno id="517">
+            <tur:data>2024-01-03</tur:data>
+            <tur:ora_inizio>05:39:31</tur:ora_inizio>
+            <tur:ora_fine>12:09:31</tur:ora_fine>
+            <tur:autista codice="A0010"/>
+            <tur:linea codice="L004"/>
+            <tur:autobus codice="B0033"/>
+        </tur:turno>
+        <tur:turno id="518">
+            <tur:data>2024-01-03</tur:data>
+            <tur:ora_inizio>12:45:42</tur:ora_inizio>
+            <tur:ora_fine>17:15:42</tur:ora_fine>
+            <tur:autista codice="A005"/>
+            <tur:linea codice="L0011"/>
+            <tur:autobus codice="B0045"/>
+        </tur:turno>
+        <tur:turno id="519">
+            <tur:data>2024-01-03</tur:data>
+            <tur:ora_inizio>13:37:34</tur:ora_inizio>
+            <tur:ora_fine>21:37:34</tur:ora_fine>
+            <tur:autista codice="A008"/>
+            <tur:linea codice="L002"/>
+            <tur:autobus codice="B0030"/>
+        </tur:turno>
+        <tur:turno id="520">
+            <tur:data>2024-01-04</tur:data>
+            <tur:ora_inizio>12:17:22</tur:ora_inizio>
+            <tur:ora_fine>15:17:22</tur:ora_fine>
+            <tur:autista codice="A006"/>
+            <tur:linea codice="L0013"/>
+            <tur:autobus codice="B0031"/>
+        </tur:turno>
+        <tur:turno id="521">
+            <tur:data>2024-01-04</tur:data>
+            <tur:ora_inizio>06:11:24</tur:ora_inizio>
+            <tur:ora_fine>09:11:24</tur:ora_fine>
+            <tur:autista codice="A009"/>
+            <tur:linea codice="L0014"/>
+            <tur:autobus codice="B0026"/>
+        </tur:turno>
+        <tur:turno id="522">
+            <tur:data>2024-01-04</tur:data>
+            <tur:ora_inizio>10:39:41</tur:ora_inizio>
+            <tur:ora_fine>15:39:41</tur:ora_fine>
+            <tur:autista codice="A009"/>
+            <tur:linea codice="L0015"/>
+            <tur:autobus codice="B0027"/>
+        </tur:turno>
+        <tur:turno id="523">
+            <tur:data>2024-01-04</tur:data>
+            <tur:ora_inizio>05:39:31</tur:ora_inizio>
+            <tur:ora_fine>09:09:31</tur:ora_fine>
+            <tur:autista codice="A005"/>
+            <tur:linea codice="L002"/>
+            <tur:autobus codice="B0029"/>
+        </tur:turno>
+        <tur:turno id="524">
+            <tur:data>2024-01-04</tur:data>
+            <tur:ora_inizio>09:42:31</tur:ora_inizio>
+            <tur:ora_fine>12:12:31</tur:ora_fine>
+            <tur:autista codice="A005"/>
+            <tur:linea codice="L0012"/>
+            <tur:autobus codice="B0026"/>
+        </tur:turno>
+        <tur:turno id="525">
+            <tur:data>2024-01-04</tur:data>
+            <tur:ora_inizio>13:58:45</tur:ora_inizio>
+            <tur:ora_fine>17:58:45</tur:ora_fine>
+            <tur:autista codice="A003"/>
+            <tur:linea codice="L008"/>
+            <tur:autobus codice="B0048"/>
+        </tur:turno>
+        <tur:turno id="526">
+            <tur:data>2024-01-05</tur:data>
+            <tur:ora_inizio>13:37:34</tur:ora_inizio>
+            <tur:ora_fine>19:07:34</tur:ora_fine>
+            <tur:autista codice="A008"/>
+            <tur:linea codice="L009"/>
+            <tur:autobus codice="B0033"/>
+        </tur:turno>
+        <tur:turno id="527">
+            <tur:data>2024-01-05</tur:data>
+            <tur:ora_inizio>08:29:58</tur:ora_inizio>
+            <tur:ora_fine>13:59:58</tur:ora_fine>
+            <tur:autista codice="A002"/>
+            <tur:linea codice="L003"/>
+            <tur:autobus codice="B0031"/>
+        </tur:turno>
+        <tur:turno id="528">
+            <tur:data>2024-01-05</tur:data>
+            <tur:ora_inizio>07:51:14</tur:ora_inizio>
+            <tur:ora_fine>13:51:14</tur:ora_fine>
+            <tur:autista codice="A0010"/>
+            <tur:linea codice="L001"/>
+            <tur:autobus codice="B0046"/>
+        </tur:turno>
+        <tur:turno id="529">
+            <tur:data>2024-01-06</tur:data>
+            <tur:ora_inizio>10:40:10</tur:ora_inizio>
+            <tur:ora_fine>16:40:10</tur:ora_fine>
+            <tur:autista codice="A004"/>
+            <tur:linea codice="L004"/>
+            <tur:autobus codice="B0048"/>
+        </tur:turno>
+        <tur:turno id="530">
+            <tur:data>2024-01-06</tur:data>
+            <tur:ora_inizio>12:39:56</tur:ora_inizio>
+            <tur:ora_fine>17:09:56</tur:ora_fine>
+            <tur:autista codice="A005"/>
+            <tur:linea codice="L004"/>
+            <tur:autobus codice="B0032"/>
+        </tur:turno>
+        <tur:turno id="531">
+            <tur:data>2024-01-06</tur:data>
+            <tur:ora_inizio>13:58:45</tur:ora_inizio>
+            <tur:ora_fine>19:58:45</tur:ora_fine>
+            <tur:autista codice="A003"/>
+            <tur:linea codice="L0013"/>
+            <tur:autobus codice="B0042"/>
+        </tur:turno>
+        <tur:turno id="532">
+            <tur:data>2024-01-06</tur:data>
+            <tur:ora_inizio>07:59:32</tur:ora_inizio>
+            <tur:ora_fine>10:59:32</tur:ora_fine>
+            <tur:autista codice="A0010"/>
+            <tur:linea codice="L006"/>
+            <tur:autobus codice="B0042"/>
+        </tur:turno>
+        <tur:turno id="533">
+            <tur:data>2024-01-06</tur:data>
+            <tur:ora_inizio>06:31:49</tur:ora_inizio>
+            <tur:ora_fine>14:01:49</tur:ora_fine>
+            <tur:autista codice="A009"/>
+            <tur:linea codice="L003"/>
+            <tur:autobus codice="B0031"/>
+        </tur:turno>
+        <tur:turno id="534">
+            <tur:data>2024-01-08</tur:data>
+            <tur:ora_inizio>10:31:56</tur:ora_inizio>
+            <tur:ora_fine>13:31:56</tur:ora_fine>
+            <tur:autista codice="A004"/>
+            <tur:linea codice="L007"/>
+            <tur:autobus codice="B0033"/>
+        </tur:turno>
+        <tur:turno id="535">
+            <tur:data>2024-01-08</tur:data>
+            <tur:ora_inizio>12:39:56</tur:ora_inizio>
+            <tur:ora_fine>20:09:56</tur:ora_fine>
+            <tur:autista codice="A0010"/>
+            <tur:linea codice="L001"/>
+            <tur:autobus codice="B0027"/>
+        </tur:turno>
+        <tur:turno id="536">
+            <tur:data>2024-01-08</tur:data>
+            <tur:ora_inizio>05:34:04</tur:ora_inizio>
+            <tur:ora_fine>12:34:04</tur:ora_fine>
+            <tur:autista codice="A002"/>
+            <tur:linea codice="L0014"/>
+            <tur:autobus codice="B0044"/>
+        </tur:turno>
+        <tur:turno id="537">
+            <tur:data>2024-01-09</tur:data>
+            <tur:ora_inizio>13:58:45</tur:ora_inizio>
+            <tur:ora_fine>18:58:45</tur:ora_fine>
+            <tur:autista codice="A004"/>
+            <tur:linea codice="L0010"/>
+            <tur:autobus codice="B0040"/>
+        </tur:turno>
+        <tur:turno id="538">
+            <tur:data>2024-01-10</tur:data>
+            <tur:ora_inizio>13:53:27</tur:ora_inizio>
+            <tur:ora_fine>17:53:27</tur:ora_fine>
+            <tur:autista codice="A009"/>
+            <tur:linea codice="L008"/>
+            <tur:autobus codice="B0030"/>
+        </tur:turno>
+        <tur:turno id="539">
+            <tur:data>2024-01-10</tur:data>
+            <tur:ora_inizio>05:51:50</tur:ora_inizio>
+            <tur:ora_fine>12:21:50</tur:ora_fine>
+            <tur:autista codice="A006"/>
+            <tur:linea codice="L003"/>
+            <tur:autobus codice="B0028"/>
+        </tur:turno>
+        <tur:turno id="540">
+            <tur:data>2024-01-10</tur:data>
+            <tur:ora_inizio>10:14:22</tur:ora_inizio>
+            <tur:ora_fine>16:14:22</tur:ora_fine>
+            <tur:autista codice="A0010"/>
+            <tur:linea codice="L006"/>
+            <tur:autobus codice="B0046"/>
+        </tur:turno>
+        <tur:turno id="541">
+            <tur:data>2024-01-10</tur:data>
+            <tur:ora_inizio>10:06:21</tur:ora_inizio>
+            <tur:ora_fine>14:06:21</tur:ora_fine>
+            <tur:autista codice="A008"/>
+            <tur:linea codice="L005"/>
+            <tur:autobus codice="B0046"/>
+        </tur:turno>
+        <tur:turno id="542">
+            <tur:data>2024-01-11</tur:data>
+            <tur:ora_inizio>06:36:07</tur:ora_inizio>
+            <tur:ora_fine>12:36:07</tur:ora_fine>
+            <tur:autista codice="A0010"/>
+            <tur:linea codice="L0014"/>
+            <tur:autobus codice="B0028"/>
+        </tur:turno>
+        <tur:turno id="543">
+            <tur:data>2024-01-11</tur:data>
+            <tur:ora_inizio>11:17:44</tur:ora_inizio>
+            <tur:ora_fine>16:47:44</tur:ora_fine>
+            <tur:autista codice="A006"/>
+            <tur:linea codice="L004"/>
+            <tur:autobus codice="B0038"/>
+        </tur:turno>
+        <tur:turno id="544">
+            <tur:data>2024-01-11</tur:data>
+            <tur:ora_inizio>11:20:44</tur:ora_inizio>
+            <tur:ora_fine>17:20:44</tur:ora_fine>
+            <tur:autista codice="A009"/>
+            <tur:linea codice="L004"/>
+            <tur:autobus codice="B0045"/>
+        </tur:turno>
+        <tur:turno id="545">
+            <tur:data>2024-01-12</tur:data>
+            <tur:ora_inizio>11:08:44</tur:ora_inizio>
+            <tur:ora_fine>14:08:44</tur:ora_fine>
+            <tur:autista codice="A002"/>
+            <tur:linea codice="L002"/>
+            <tur:autobus codice="B0035"/>
+        </tur:turno>
+        <tur:turno id="546">
+            <tur:data>2024-01-12</tur:data>
+            <tur:ora_inizio>12:01:56</tur:ora_inizio>
+            <tur:ora_fine>18:31:56</tur:ora_fine>
+            <tur:autista codice="A009"/>
+            <tur:linea codice="L0012"/>
+            <tur:autobus codice="B0047"/>
+        </tur:turno>
+        <tur:turno id="547">
+            <tur:data>2024-01-12</tur:data>
+            <tur:ora_inizio>09:54:32</tur:ora_inizio>
+            <tur:ora_fine>17:24:32</tur:ora_fine>
+            <tur:autista codice="A006"/>
+            <tur:linea codice="L001"/>
+            <tur:autobus codice="B0031"/>
+        </tur:turno>
+        <tur:turno id="548">
+            <tur:data>2024-01-12</tur:data>
+            <tur:ora_inizio>13:44:42</tur:ora_inizio>
+            <tur:ora_fine>15:44:42</tur:ora_fine>
+            <tur:autista codice="A0010"/>
+            <tur:linea codice="L003"/>
+            <tur:autobus codice="B0034"/>
+        </tur:turno>
+        <tur:turno id="549">
+            <tur:data>2024-01-12</tur:data>
+            <tur:ora_inizio>11:57:43</tur:ora_inizio>
+            <tur:ora_fine>19:27:43</tur:ora_fine>
+            <tur:autista codice="A004"/>
+            <tur:linea codice="L009"/>
+            <tur:autobus codice="B0040"/>
+        </tur:turno>
+        <tur:turno id="550">
+            <tur:data>2024-01-13</tur:data>
+            <tur:ora_inizio>13:52:36</tur:ora_inizio>
+            <tur:ora_fine>16:22:36</tur:ora_fine>
+            <tur:autista codice="A005"/>
+            <tur:linea codice="L0012"/>
+            <tur:autobus codice="B0044"/>
+        </tur:turno>
+        <tur:turno id="551">
+            <tur:data>2024-01-13</tur:data>
+            <tur:ora_inizio>07:46:11</tur:ora_inizio>
+            <tur:ora_fine>11:46:11</tur:ora_fine>
+            <tur:autista codice="A009"/>
+            <tur:linea codice="L0015"/>
+            <tur:autobus codice="B0026"/>
+        </tur:turno>
+        <tur:turno id="552">
+            <tur:data>2024-01-13</tur:data>
+            <tur:ora_inizio>11:27:44</tur:ora_inizio>
+            <tur:ora_fine>15:57:44</tur:ora_fine>
+            <tur:autista codice="A0010"/>
+            <tur:linea codice="L0010"/>
+            <tur:autobus codice="B0047"/>
+        </tur:turno>
+        <tur:turno id="553">
+            <tur:data>2024-01-13</tur:data>
+            <tur:ora_inizio>13:52:36</tur:ora_inizio>
+            <tur:ora_fine>19:52:36</tur:ora_fine>
+            <tur:autista codice="A004"/>
+            <tur:linea codice="L0010"/>
+            <tur:autobus codice="B0046"/>
+        </tur:turno>
+        <tur:turno id="554">
+            <tur:data>2024-01-13</tur:data>
+            <tur:ora_inizio>06:32:03</tur:ora_inizio>
+            <tur:ora_fine>13:32:03</tur:ora_fine>
+            <tur:autista codice="A006"/>
+            <tur:linea codice="L0013"/>
+            <tur:autobus codice="B0030"/>
+        </tur:turno>
+        <tur:turno id="555">
+            <tur:data>2024-01-14</tur:data>
+            <tur:ora_inizio>10:06:21</tur:ora_inizio>
+            <tur:ora_fine>18:06:21</tur:ora_fine>
+            <tur:autista codice="A008"/>
+            <tur:linea codice="L0011"/>
+            <tur:autobus codice="B0028"/>
+        </tur:turno>
+        <tur:turno id="556">
+            <tur:data>2024-01-14</tur:data>
+            <tur:ora_inizio>09:40:47</tur:ora_inizio>
+            <tur:ora_fine>16:40:47</tur:ora_fine>
+            <tur:autista codice="A004"/>
+            <tur:linea codice="L002"/>
+            <tur:autobus codice="B0026"/>
+        </tur:turno>
+        <tur:turno id="557">
+            <tur:data>2024-01-14</tur:data>
+            <tur:ora_inizio>05:36:54</tur:ora_inizio>
+            <tur:ora_fine>08:06:54</tur:ora_fine>
+            <tur:autista codice="A009"/>
+            <tur:linea codice="L0011"/>
+            <tur:autobus codice="B0046"/>
+        </tur:turno>
+        <tur:turno id="558">
+            <tur:data>2024-01-16</tur:data>
+            <tur:ora_inizio>12:01:56</tur:ora_inizio>
+            <tur:ora_fine>18:01:56</tur:ora_fine>
+            <tur:autista codice="A005"/>
+            <tur:linea codice="L0011"/>
+            <tur:autobus codice="B0031"/>
+        </tur:turno>
+        <tur:turno id="559">
+            <tur:data>2024-01-16</tur:data>
+            <tur:ora_inizio>10:39:41</tur:ora_inizio>
+            <tur:ora_fine>17:39:41</tur:ora_fine>
+            <tur:autista codice="A0010"/>
+            <tur:linea codice="L005"/>
+            <tur:autobus codice="B0032"/>
+        </tur:turno>
+        <tur:turno id="560">
+            <tur:data>2024-01-16</tur:data>
+            <tur:ora_inizio>06:09:55</tur:ora_inizio>
+            <tur:ora_fine>10:39:55</tur:ora_fine>
+            <tur:autista codice="A009"/>
+            <tur:linea codice="L0011"/>
+            <tur:autobus codice="B0031"/>
+        </tur:turno>
+        <tur:turno id="561">
+            <tur:data>2024-01-16</tur:data>
+            <tur:ora_inizio>12:52:35</tur:ora_inizio>
+            <tur:ora_fine>18:22:35</tur:ora_fine>
+            <tur:autista codice="A008"/>
+            <tur:linea codice="L001"/>
+            <tur:autobus codice="B0046"/>
+        </tur:turno>
+        <tur:turno id="562">
+            <tur:data>2024-01-20</tur:data>
+            <tur:ora_inizio>11:43:17</tur:ora_inizio>
+            <tur:ora_fine>15:43:17</tur:ora_fine>
+            <tur:autista codice="A004"/>
+            <tur:linea codice="L006"/>
+            <tur:autobus codice="B0035"/>
+        </tur:turno>
+        <tur:turno id="563">
+            <tur:data>2024-01-20</tur:data>
+            <tur:ora_inizio>10:01:52</tur:ora_inizio>
+            <tur:ora_fine>12:01:52</tur:ora_fine>
+            <tur:autista codice="A0010"/>
+            <tur:linea codice="L009"/>
+            <tur:autobus codice="B0044"/>
+        </tur:turno>
+        <tur:turno id="564">
+            <tur:data>2024-01-20</tur:data>
+            <tur:ora_inizio>05:03:33</tur:ora_inizio>
+            <tur:ora_fine>12:03:33</tur:ora_fine>
+            <tur:autista codice="A007"/>
+            <tur:linea codice="L0011"/>
+            <tur:autobus codice="B0045"/>
+        </tur:turno>
+        <tur:turno id="565">
+            <tur:data>2024-01-21</tur:data>
+            <tur:ora_inizio>11:17:44</tur:ora_inizio>
+            <tur:ora_fine>18:17:44</tur:ora_fine>
+            <tur:autista codice="A002"/>
+            <tur:linea codice="L0015"/>
+            <tur:autobus codice="B0027"/>
+        </tur:turno>
+        <tur:turno id="566">
+            <tur:data>2024-01-21</tur:data>
+            <tur:ora_inizio>08:18:32</tur:ora_inizio>
+            <tur:ora_fine>15:18:32</tur:ora_fine>
+            <tur:autista codice="A006"/>
+            <tur:linea codice="L009"/>
+            <tur:autobus codice="B0031"/>
+        </tur:turno>
+        <tur:turno id="567">
+            <tur:data>2024-01-21</tur:data>
+            <tur:ora_inizio>12:39:56</tur:ora_inizio>
+            <tur:ora_fine>14:39:56</tur:ora_fine>
+            <tur:autista codice="A005"/>
+            <tur:linea codice="L005"/>
+            <tur:autobus codice="B0036"/>
+        </tur:turno>
+        <tur:turno id="568">
+            <tur:data>2024-01-21</tur:data>
+            <tur:ora_inizio>06:09:55</tur:ora_inizio>
+            <tur:ora_fine>09:39:55</tur:ora_fine>
+            <tur:autista codice="A0010"/>
+            <tur:linea codice="L002"/>
+            <tur:autobus codice="B0028"/>
+        </tur:turno>
+        <tur:turno id="569">
+            <tur:data>2024-01-21</tur:data>
+            <tur:ora_inizio>09:44:13</tur:ora_inizio>
+            <tur:ora_fine>12:14:13</tur:ora_fine>
+            <tur:autista codice="A005"/>
+            <tur:linea codice="L0015"/>
+            <tur:autobus codice="B0034"/>
+        </tur:turno>
+        <tur:turno id="570">
+            <tur:data>2024-01-21</tur:data>
+            <tur:ora_inizio>07:34:35</tur:ora_inizio>
+            <tur:ora_fine>14:04:35</tur:ora_fine>
+            <tur:autista codice="A009"/>
+            <tur:linea codice="L004"/>
+            <tur:autobus codice="B0042"/>
+        </tur:turno>
+        <tur:turno id="571">
+            <tur:data>2024-01-21</tur:data>
+            <tur:ora_inizio>06:11:24</tur:ora_inizio>
+            <tur:ora_fine>08:41:24</tur:ora_fine>
+            <tur:autista codice="A004"/>
+            <tur:linea codice="L005"/>
+            <tur:autobus codice="B0042"/>
+        </tur:turno>
+        <tur:turno id="572">
+            <tur:data>2024-01-24</tur:data>
+            <tur:ora_inizio>09:44:13</tur:ora_inizio>
+            <tur:ora_fine>16:44:13</tur:ora_fine>
+            <tur:autista codice="A005"/>
+            <tur:linea codice="L003"/>
+            <tur:autobus codice="B0033"/>
+        </tur:turno>
+        <tur:turno id="573">
+            <tur:data>2024-01-24</tur:data>
+            <tur:ora_inizio>11:17:44</tur:ora_inizio>
+            <tur:ora_fine>14:47:44</tur:ora_fine>
+            <tur:autista codice="A009"/>
+            <tur:linea codice="L008"/>
+            <tur:autobus codice="B0043"/>
+        </tur:turno>
+        <tur:turno id="574">
+            <tur:data>2024-01-24</tur:data>
+            <tur:ora_inizio>12:58:46</tur:ora_inizio>
+            <tur:ora_fine>14:58:46</tur:ora_fine>
+            <tur:autista codice="A004"/>
+            <tur:linea codice="L0011"/>
+            <tur:autobus codice="B0030"/>
+        </tur:turno>
+        <tur:turno id="575">
+            <tur:data>2024-01-24</tur:data>
+            <tur:ora_inizio>08:08:31</tur:ora_inizio>
+            <tur:ora_fine>15:38:31</tur:ora_fine>
+            <tur:autista codice="A0010"/>
+            <tur:linea codice="L002"/>
+            <tur:autobus codice="B0048"/>
+        </tur:turno>
+        <tur:turno id="576">
+            <tur:data>2024-01-24</tur:data>
+            <tur:ora_inizio>10:44:35</tur:ora_inizio>
+            <tur:ora_fine>15:14:35</tur:ora_fine>
+            <tur:autista codice="A007"/>
+            <tur:linea codice="L0010"/>
+            <tur:autobus codice="B0046"/>
+        </tur:turno>
+        <tur:turno id="577">
+            <tur:data>2024-01-24</tur:data>
+            <tur:ora_inizio>13:58:45</tur:ora_inizio>
+            <tur:ora_fine>15:58:45</tur:ora_fine>
+            <tur:autista codice="A006"/>
+            <tur:linea codice="L0012"/>
+            <tur:autobus codice="B0039"/>
+        </tur:turno>
+        <tur:turno id="578">
+            <tur:data>2024-01-24</tur:data>
+            <tur:ora_inizio>08:29:58</tur:ora_inizio>
+            <tur:ora_fine>10:29:58</tur:ora_fine>
+            <tur:autista codice="A007"/>
+            <tur:linea codice="L002"/>
+            <tur:autobus codice="B0035"/>
+        </tur:turno>
+        <tur:turno id="579">
+            <tur:data>2024-01-25</tur:data>
+            <tur:ora_inizio>11:57:43</tur:ora_inizio>
+            <tur:ora_fine>15:27:43</tur:ora_fine>
+            <tur:autista codice="A003"/>
+            <tur:linea codice="L004"/>
+            <tur:autobus codice="B0048"/>
+        </tur:turno>
+        <tur:turno id="580">
+            <tur:data>2024-01-25</tur:data>
+            <tur:ora_inizio>07:59:32</tur:ora_inizio>
+            <tur:ora_fine>13:59:32</tur:ora_fine>
+            <tur:autista codice="A004"/>
+            <tur:linea codice="L0012"/>
+            <tur:autobus codice="B0037"/>
+        </tur:turno>
+        <tur:turno id="581">
+            <tur:data>2024-01-25</tur:data>
+            <tur:ora_inizio>11:57:43</tur:ora_inizio>
+            <tur:ora_fine>16:27:43</tur:ora_fine>
+            <tur:autista codice="A008"/>
+            <tur:linea codice="L0015"/>
+            <tur:autobus codice="B0026"/>
+        </tur:turno>
+        <tur:turno id="582">
+            <tur:data>2024-01-25</tur:data>
+            <tur:ora_inizio>09:46:06</tur:ora_inizio>
+            <tur:ora_fine>15:16:06</tur:ora_fine>
+            <tur:autista codice="A006"/>
+            <tur:linea codice="L008"/>
+            <tur:autobus codice="B0029"/>
+        </tur:turno>
+        <tur:turno id="583">
+            <tur:data>2024-01-27</tur:data>
+            <tur:ora_inizio>11:08:44</tur:ora_inizio>
+            <tur:ora_fine>17:08:44</tur:ora_fine>
+            <tur:autista codice="A003"/>
+            <tur:linea codice="L0013"/>
+            <tur:autobus codice="B0039"/>
+        </tur:turno>
+        <tur:turno id="584">
+            <tur:data>2024-01-27</tur:data>
+            <tur:ora_inizio>10:01:52</tur:ora_inizio>
+            <tur:ora_fine>12:01:52</tur:ora_fine>
+            <tur:autista codice="A005"/>
+            <tur:linea codice="L0011"/>
+            <tur:autobus codice="B0042"/>
+        </tur:turno>
+        <tur:turno id="585">
+            <tur:data>2024-01-27</tur:data>
+            <tur:ora_inizio>06:48:11</tur:ora_inizio>
+            <tur:ora_fine>10:48:11</tur:ora_fine>
+            <tur:autista codice="A003"/>
+            <tur:linea codice="L008"/>
+            <tur:autobus codice="B0038"/>
+        </tur:turno>
+        <tur:turno id="586">
+            <tur:data>2024-01-27</tur:data>
+            <tur:ora_inizio>10:06:21</tur:ora_inizio>
+            <tur:ora_fine>13:06:21</tur:ora_fine>
+            <tur:autista codice="A0010"/>
+            <tur:linea codice="L003"/>
+            <tur:autobus codice="B0034"/>
+        </tur:turno>
+        <tur:turno id="587">
+            <tur:data>2024-01-27</tur:data>
+            <tur:ora_inizio>07:51:14</tur:ora_inizio>
+            <tur:ora_fine>09:51:14</tur:ora_fine>
+            <tur:autista codice="A0010"/>
+            <tur:linea codice="L001"/>
+            <tur:autobus codice="B0033"/>
+        </tur:turno>
+        <tur:turno id="588">
+            <tur:data>2024-01-30</tur:data>
+            <tur:ora_inizio>10:37:59</tur:ora_inizio>
+            <tur:ora_fine>14:37:59</tur:ora_fine>
+            <tur:autista codice="A003"/>
+            <tur:linea codice="L005"/>
+            <tur:autobus codice="B0047"/>
+        </tur:turno>
+        <tur:turno id="589">
+            <tur:data>2024-01-30</tur:data>
+            <tur:ora_inizio>11:43:17</tur:ora_inizio>
+            <tur:ora_fine>17:43:17</tur:ora_fine>
+            <tur:autista codice="A002"/>
+            <tur:linea codice="L0013"/>
+            <tur:autobus codice="B0043"/>
+        </tur:turno>
+        <tur:turno id="590">
+            <tur:data>2024-01-30</tur:data>
+            <tur:ora_inizio>05:03:33</tur:ora_inizio>
+            <tur:ora_fine>09:03:33</tur:ora_fine>
+            <tur:autista codice="A003"/>
+            <tur:linea codice="L0011"/>
+            <tur:autobus codice="B0025"/>
+        </tur:turno>
+        <tur:turno id="591">
+            <tur:data>2024-01-30</tur:data>
+            <tur:ora_inizio>05:34:04</tur:ora_inizio>
+            <tur:ora_fine>12:04:04</tur:ora_fine>
+            <tur:autista codice="A008"/>
+            <tur:linea codice="L0012"/>
+            <tur:autobus codice="B0029"/>
+        </tur:turno>
+        <tur:turno id="592">
+            <tur:data>2024-01-30</tur:data>
+            <tur:ora_inizio>10:57:43</tur:ora_inizio>
+            <tur:ora_fine>16:57:43</tur:ora_fine>
+            <tur:autista codice="A007"/>
+            <tur:linea codice="L0012"/>
+            <tur:autobus codice="B0041"/>
+        </tur:turno>
+        <tur:turno id="593">
+            <tur:data>2024-01-30</tur:data>
+            <tur:ora_inizio>11:21:45</tur:ora_inizio>
+            <tur:ora_fine>17:21:45</tur:ora_fine>
+            <tur:autista codice="A0010"/>
+            <tur:linea codice="L002"/>
+            <tur:autobus codice="B0028"/>
+        </tur:turno>
+        <tur:turno id="594">
+            <tur:data>2024-01-30</tur:data>
+            <tur:ora_inizio>09:44:13</tur:ora_inizio>
+            <tur:ora_fine>15:44:13</tur:ora_fine>
+            <tur:autista codice="A009"/>
+            <tur:linea codice="L002"/>
+            <tur:autobus codice="B0033"/>
+        </tur:turno>
+        <tur:turno id="595">
+            <tur:data>2024-02-01</tur:data>
+            <tur:ora_inizio>08:18:32</tur:ora_inizio>
+            <tur:ora_fine>15:48:32</tur:ora_fine>
+            <tur:autista codice="A0010"/>
+            <tur:linea codice="L008"/>
+            <tur:autobus codice="B0036"/>
+        </tur:turno>
+        <tur:turno id="596">
+            <tur:data>2024-02-01</tur:data>
+            <tur:ora_inizio>05:36:54</tur:ora_inizio>
+            <tur:ora_fine>08:36:54</tur:ora_fine>
+            <tur:autista codice="A008"/>
+            <tur:linea codice="L001"/>
+            <tur:autobus codice="B0033"/>
+        </tur:turno>
+        <tur:turno id="597">
+            <tur:data>2024-02-01</tur:data>
+            <tur:ora_inizio>07:57:45</tur:ora_inizio>
+            <tur:ora_fine>11:27:45</tur:ora_fine>
+            <tur:autista codice="A006"/>
+            <tur:linea codice="L003"/>
+            <tur:autobus codice="B0048"/>
+        </tur:turno>
+        <tur:turno id="598">
+            <tur:data>2024-02-01</tur:data>
+            <tur:ora_inizio>05:33:59</tur:ora_inizio>
+            <tur:ora_fine>12:03:59</tur:ora_fine>
+            <tur:autista codice="A004"/>
+            <tur:linea codice="L001"/>
+            <tur:autobus codice="B0026"/>
+        </tur:turno>
+        <tur:turno id="599">
+            <tur:data>2024-02-01</tur:data>
+            <tur:ora_inizio>08:53:17</tur:ora_inizio>
+            <tur:ora_fine>13:23:17</tur:ora_fine>
+            <tur:autista codice="A008"/>
+            <tur:linea codice="L002"/>
+            <tur:autobus codice="B0033"/>
+        </tur:turno>
+        <tur:turno id="600">
+            <tur:data>2024-02-01</tur:data>
+            <tur:ora_inizio>05:03:33</tur:ora_inizio>
+            <tur:ora_fine>07:03:33</tur:ora_fine>
+            <tur:autista codice="A007"/>
+            <tur:linea codice="L0012"/>
+            <tur:autobus codice="B0043"/>
+        </tur:turno>
+        <tur:turno id="601">
+            <tur:data>2024-02-02</tur:data>
+            <tur:ora_inizio>09:46:06</tur:ora_inizio>
+            <tur:ora_fine>16:16:06</tur:ora_fine>
+            <tur:autista codice="A003"/>
+            <tur:linea codice="L0012"/>
+            <tur:autobus codice="B0047"/>
+        </tur:turno>
+        <tur:turno id="602">
+            <tur:data>2024-02-02</tur:data>
+            <tur:ora_inizio>07:03:13</tur:ora_inizio>
+            <tur:ora_fine>11:03:13</tur:ora_fine>
+            <tur:autista codice="A005"/>
+            <tur:linea codice="L004"/>
+            <tur:autobus codice="B0040"/>
+        </tur:turno>
+        <tur:turno id="603">
+            <tur:data>2024-02-02</tur:data>
+            <tur:ora_inizio>08:17:48</tur:ora_inizio>
+            <tur:ora_fine>14:47:48</tur:ora_fine>
+            <tur:autista codice="A009"/>
+            <tur:linea codice="L002"/>
+            <tur:autobus codice="B0041"/>
+        </tur:turno>
+        <tur:turno id="604">
+            <tur:data>2024-02-02</tur:data>
+            <tur:ora_inizio>12:52:35</tur:ora_inizio>
+            <tur:ora_fine>18:22:35</tur:ora_fine>
+            <tur:autista codice="A006"/>
+            <tur:linea codice="L006"/>
+            <tur:autobus codice="B0029"/>
+        </tur:turno>
+        <tur:turno id="605">
+            <tur:data>2024-02-03</tur:data>
+            <tur:ora_inizio>07:46:11</tur:ora_inizio>
+            <tur:ora_fine>10:46:11</tur:ora_fine>
+            <tur:autista codice="A007"/>
+            <tur:linea codice="L007"/>
+            <tur:autobus codice="B0042"/>
+        </tur:turno>
+        <tur:turno id="606">
+            <tur:data>2024-02-03</tur:data>
+            <tur:ora_inizio>11:43:17</tur:ora_inizio>
+            <tur:ora_fine>15:13:17</tur:ora_fine>
+            <tur:autista codice="A004"/>
+            <tur:linea codice="L007"/>
+            <tur:autobus codice="B0048"/>
+        </tur:turno>
+        <tur:turno id="607">
+            <tur:data>2024-02-03</tur:data>
+            <tur:ora_inizio>11:39:07</tur:ora_inizio>
+            <tur:ora_fine>19:09:07</tur:ora_fine>
+            <tur:autista codice="A007"/>
+            <tur:linea codice="L009"/>
+            <tur:autobus codice="B0042"/>
+        </tur:turno>
+        <tur:turno id="608">
+            <tur:data>2024-02-03</tur:data>
+            <tur:ora_inizio>13:44:48</tur:ora_inizio>
+            <tur:ora_fine>21:14:48</tur:ora_fine>
+            <tur:autista codice="A0010"/>
+            <tur:linea codice="L009"/>
+            <tur:autobus codice="B0030"/>
+        </tur:turno>
+        <tur:turno id="609">
+            <tur:data>2024-02-07</tur:data>
+            <tur:ora_inizio>07:34:35</tur:ora_inizio>
+            <tur:ora_fine>13:04:35</tur:ora_fine>
+            <tur:autista codice="A008"/>
+            <tur:linea codice="L006"/>
+            <tur:autobus codice="B0043"/>
+        </tur:turno>
+        <tur:turno id="610">
+            <tur:data>2024-02-07</tur:data>
+            <tur:ora_inizio>08:37:53</tur:ora_inizio>
+            <tur:ora_fine>15:37:53</tur:ora_fine>
+            <tur:autista codice="A009"/>
+            <tur:linea codice="L0012"/>
+            <tur:autobus codice="B0030"/>
+        </tur:turno>
+        <tur:turno id="611">
+            <tur:data>2024-02-09</tur:data>
+            <tur:ora_inizio>05:03:33</tur:ora_inizio>
+            <tur:ora_fine>09:33:33</tur:ora_fine>
+            <tur:autista codice="A006"/>
+            <tur:linea codice="L004"/>
+            <tur:autobus codice="B0025"/>
+        </tur:turno>
+        <tur:turno id="612">
+            <tur:data>2024-02-09</tur:data>
+            <tur:ora_inizio>06:32:03</tur:ora_inizio>
+            <tur:ora_fine>10:02:03</tur:ora_fine>
+            <tur:autista codice="A002"/>
+            <tur:linea codice="L0011"/>
+            <tur:autobus codice="B0036"/>
+        </tur:turno>
+        <tur:turno id="613">
+            <tur:data>2024-02-09</tur:data>
+            <tur:ora_inizio>13:34:06</tur:ora_inizio>
+            <tur:ora_fine>21:34:06</tur:ora_fine>
+            <tur:autista codice="A006"/>
+            <tur:linea codice="L0015"/>
+            <tur:autobus codice="B0046"/>
+        </tur:turno>
+        <tur:turno id="614">
+            <tur:data>2024-02-10</tur:data>
+            <tur:ora_inizio>12:15:29</tur:ora_inizio>
+            <tur:ora_fine>16:15:29</tur:ora_fine>
+            <tur:autista codice="A005"/>
+            <tur:linea codice="L004"/>
+            <tur:autobus codice="B0046"/>
+        </tur:turno>
+        <tur:turno id="615">
+            <tur:data>2024-02-10</tur:data>
+            <tur:ora_inizio>05:34:04</tur:ora_inizio>
+            <tur:ora_fine>09:04:04</tur:ora_fine>
+            <tur:autista codice="A005"/>
+            <tur:linea codice="L005"/>
+            <tur:autobus codice="B0030"/>
+        </tur:turno>
+        <tur:turno id="616">
+            <tur:data>2024-02-13</tur:data>
+            <tur:ora_inizio>06:28:53</tur:ora_inizio>
+            <tur:ora_fine>10:58:53</tur:ora_fine>
+            <tur:autista codice="A008"/>
+            <tur:linea codice="L0012"/>
+            <tur:autobus codice="B0031"/>
+        </tur:turno>
+        <tur:turno id="617">
+            <tur:data>2024-02-13</tur:data>
+            <tur:ora_inizio>13:34:06</tur:ora_inizio>
+            <tur:ora_fine>19:34:06</tur:ora_fine>
+            <tur:autista codice="A002"/>
+            <tur:linea codice="L007"/>
+            <tur:autobus codice="B0029"/>
+        </tur:turno>
+        <tur:turno id="618">
+            <tur:data>2024-02-16</tur:data>
+            <tur:ora_inizio>13:34:06</tur:ora_inizio>
+            <tur:ora_fine>20:04:06</tur:ora_fine>
+            <tur:autista codice="A005"/>
+            <tur:linea codice="L003"/>
+            <tur:autobus codice="B0040"/>
+        </tur:turno>
+        <tur:turno id="619">
+            <tur:data>2024-02-16</tur:data>
+            <tur:ora_inizio>09:19:38</tur:ora_inizio>
+            <tur:ora_fine>15:49:38</tur:ora_fine>
+            <tur:autista codice="A002"/>
+            <tur:linea codice="L006"/>
+            <tur:autobus codice="B0029"/>
+        </tur:turno>
+        <tur:turno id="620">
+            <tur:data>2024-02-16</tur:data>
+            <tur:ora_inizio>07:57:45</tur:ora_inizio>
+            <tur:ora_fine>15:57:45</tur:ora_fine>
+            <tur:autista codice="A008"/>
+            <tur:linea codice="L007"/>
+            <tur:autobus codice="B0031"/>
+        </tur:turno>
+        <tur:turno id="621">
+            <tur:data>2024-02-16</tur:data>
+            <tur:ora_inizio>06:32:03</tur:ora_inizio>
+            <tur:ora_fine>11:32:03</tur:ora_fine>
+            <tur:autista codice="A0010"/>
+            <tur:linea codice="L005"/>
+            <tur:autobus codice="B0025"/>
+        </tur:turno>
+        <tur:turno id="622">
+            <tur:data>2024-02-16</tur:data>
+            <tur:ora_inizio>12:58:46</tur:ora_inizio>
+            <tur:ora_fine>20:28:46</tur:ora_fine>
+            <tur:autista codice="A007"/>
+            <tur:linea codice="L004"/>
+            <tur:autobus codice="B0041"/>
+        </tur:turno>
+        <tur:turno id="623">
+            <tur:data>2024-02-16</tur:data>
+            <tur:ora_inizio>05:39:31</tur:ora_inizio>
+            <tur:ora_fine>09:09:31</tur:ora_fine>
+            <tur:autista codice="A004"/>
+            <tur:linea codice="L006"/>
+            <tur:autobus codice="B0029"/>
+        </tur:turno>
+        <tur:turno id="624">
+            <tur:data>2024-02-17</tur:data>
+            <tur:ora_inizio>07:57:45</tur:ora_inizio>
+            <tur:ora_fine>13:27:45</tur:ora_fine>
+            <tur:autista codice="A008"/>
+            <tur:linea codice="L0010"/>
+            <tur:autobus codice="B0030"/>
+        </tur:turno>
+        <tur:turno id="625">
+            <tur:data>2024-02-18</tur:data>
+            <tur:ora_inizio>06:31:49</tur:ora_inizio>
+            <tur:ora_fine>10:31:49</tur:ora_fine>
+            <tur:autista codice="A008"/>
+            <tur:linea codice="L009"/>
+            <tur:autobus codice="B0038"/>
+        </tur:turno>
+        <tur:turno id="626">
+            <tur:data>2024-02-20</tur:data>
+            <tur:ora_inizio>07:03:13</tur:ora_inizio>
+            <tur:ora_fine>10:03:13</tur:ora_fine>
+            <tur:autista codice="A005"/>
+            <tur:linea codice="L008"/>
+            <tur:autobus codice="B0038"/>
+        </tur:turno>
+        <tur:turno id="627">
+            <tur:data>2024-02-21</tur:data>
+            <tur:ora_inizio>06:36:07</tur:ora_inizio>
+            <tur:ora_fine>13:36:07</tur:ora_fine>
+            <tur:autista codice="A005"/>
+            <tur:linea codice="L007"/>
+            <tur:autobus codice="B0043"/>
+        </tur:turno>
+        <tur:turno id="628">
+            <tur:data>2024-02-21</tur:data>
+            <tur:ora_inizio>11:27:40</tur:ora_inizio>
+            <tur:ora_fine>17:57:40</tur:ora_fine>
+            <tur:autista codice="A004"/>
+            <tur:linea codice="L006"/>
+            <tur:autobus codice="B0048"/>
+        </tur:turno>
+        <tur:turno id="629">
+            <tur:data>2024-02-21</tur:data>
+            <tur:ora_inizio>06:31:49</tur:ora_inizio>
+            <tur:ora_fine>12:31:49</tur:ora_fine>
+            <tur:autista codice="A008"/>
+            <tur:linea codice="L0012"/>
+            <tur:autobus codice="B0032"/>
+        </tur:turno>
+        <tur:turno id="630">
+            <tur:data>2024-02-21</tur:data>
+            <tur:ora_inizio>07:11:40</tur:ora_inizio>
+            <tur:ora_fine>14:11:40</tur:ora_fine>
+            <tur:autista codice="A0010"/>
+            <tur:linea codice="L0010"/>
+            <tur:autobus codice="B0034"/>
+        </tur:turno>
+        <tur:turno id="631">
+            <tur:data>2024-02-21</tur:data>
+            <tur:ora_inizio>08:53:17</tur:ora_inizio>
+            <tur:ora_fine>13:23:17</tur:ora_fine>
+            <tur:autista codice="A002"/>
+            <tur:linea codice="L004"/>
+            <tur:autobus codice="B0031"/>
+        </tur:turno>
+        <tur:turno id="632">
+            <tur:data>2024-02-22</tur:data>
+            <tur:ora_inizio>10:44:35</tur:ora_inizio>
+            <tur:ora_fine>14:44:35</tur:ora_fine>
+            <tur:autista codice="A006"/>
+            <tur:linea codice="L001"/>
+            <tur:autobus codice="B0035"/>
+        </tur:turno>
+        <tur:turno id="633">
+            <tur:data>2024-02-22</tur:data>
+            <tur:ora_inizio>12:45:42</tur:ora_inizio>
+            <tur:ora_fine>16:15:42</tur:ora_fine>
+            <tur:autista codice="A003"/>
+            <tur:linea codice="L007"/>
+            <tur:autobus codice="B0027"/>
+        </tur:turno>
+        <tur:turno id="634">
+            <tur:data>2024-02-23</tur:data>
+            <tur:ora_inizio>09:42:31</tur:ora_inizio>
+            <tur:ora_fine>15:12:31</tur:ora_fine>
+            <tur:autista codice="A002"/>
+            <tur:linea codice="L007"/>
+            <tur:autobus codice="B0044"/>
+        </tur:turno>
+        <tur:turno id="635">
+            <tur:data>2024-02-23</tur:data>
+            <tur:ora_inizio>12:15:29</tur:ora_inizio>
+            <tur:ora_fine>14:15:29</tur:ora_fine>
+            <tur:autista codice="A006"/>
+            <tur:linea codice="L002"/>
+            <tur:autobus codice="B0037"/>
+        </tur:turno>
+        <tur:turno id="636">
+            <tur:data>2024-02-25</tur:data>
+            <tur:ora_inizio>12:19:13</tur:ora_inizio>
+            <tur:ora_fine>17:49:13</tur:ora_fine>
+            <tur:autista codice="A002"/>
+            <tur:linea codice="L0014"/>
+            <tur:autobus codice="B0040"/>
+        </tur:turno>
+        <tur:turno id="637">
+            <tur:data>2024-02-25</tur:data>
+            <tur:ora_inizio>07:03:13</tur:ora_inizio>
+            <tur:ora_fine>12:33:13</tur:ora_fine>
+            <tur:autista codice="A009"/>
+            <tur:linea codice="L003"/>
+            <tur:autobus codice="B0042"/>
+        </tur:turno>
+        <tur:turno id="638">
+            <tur:data>2024-02-25</tur:data>
+            <tur:ora_inizio>09:46:06</tur:ora_inizio>
+            <tur:ora_fine>17:46:06</tur:ora_fine>
+            <tur:autista codice="A005"/>
+            <tur:linea codice="L009"/>
+            <tur:autobus codice="B0033"/>
+        </tur:turno>
+        <tur:turno id="639">
+            <tur:data>2024-02-25</tur:data>
+            <tur:ora_inizio>09:12:22</tur:ora_inizio>
+            <tur:ora_fine>15:12:22</tur:ora_fine>
+            <tur:autista codice="A003"/>
+            <tur:linea codice="L0014"/>
+            <tur:autobus codice="B0045"/>
+        </tur:turno>
+        <tur:turno id="640">
+            <tur:data>2024-02-26</tur:data>
+            <tur:ora_inizio>13:02:23</tur:ora_inizio>
+            <tur:ora_fine>16:32:23</tur:ora_fine>
+            <tur:autista codice="A009"/>
+            <tur:linea codice="L0013"/>
+            <tur:autobus codice="B0037"/>
+        </tur:turno>
+        <tur:turno id="641">
+            <tur:data>2024-02-26</tur:data>
+            <tur:ora_inizio>13:52:36</tur:ora_inizio>
+            <tur:ora_fine>16:52:36</tur:ora_fine>
+            <tur:autista codice="A007"/>
+            <tur:linea codice="L0014"/>
+            <tur:autobus codice="B0031"/>
+        </tur:turno>
+        <tur:turno id="642">
+            <tur:data>2024-02-26</tur:data>
+            <tur:ora_inizio>05:36:54</tur:ora_inizio>
+            <tur:ora_fine>09:06:54</tur:ora_fine>
+            <tur:autista codice="A002"/>
+            <tur:linea codice="L008"/>
+            <tur:autobus codice="B0029"/>
+        </tur:turno>
+        <tur:turno id="643">
+            <tur:data>2024-02-26</tur:data>
+            <tur:ora_inizio>10:40:15</tur:ora_inizio>
+            <tur:ora_fine>16:40:15</tur:ora_fine>
+            <tur:autista codice="A006"/>
+            <tur:linea codice="L0012"/>
+            <tur:autobus codice="B0048"/>
+        </tur:turno>
+        <tur:turno id="644">
+            <tur:data>2024-02-26</tur:data>
+            <tur:ora_inizio>13:55:12</tur:ora_inizio>
+            <tur:ora_fine>18:55:12</tur:ora_fine>
+            <tur:autista codice="A004"/>
+            <tur:linea codice="L0014"/>
+            <tur:autobus codice="B0047"/>
+        </tur:turno>
+        <tur:turno id="645">
+            <tur:data>2024-02-26</tur:data>
+            <tur:ora_inizio>10:40:15</tur:ora_inizio>
+            <tur:ora_fine>16:10:15</tur:ora_fine>
+            <tur:autista codice="A003"/>
+            <tur:linea codice="L009"/>
+            <tur:autobus codice="B0026"/>
+        </tur:turno>
+        <tur:turno id="646">
+            <tur:data>2024-02-26</tur:data>
+            <tur:ora_inizio>07:55:10</tur:ora_inizio>
+            <tur:ora_fine>11:25:10</tur:ora_fine>
+            <tur:autista codice="A0010"/>
+            <tur:linea codice="L003"/>
+            <tur:autobus codice="B0042"/>
+        </tur:turno>
+        <tur:turno id="647">
+            <tur:data>2024-02-27</tur:data>
+            <tur:ora_inizio>12:39:56</tur:ora_inizio>
+            <tur:ora_fine>17:09:56</tur:ora_fine>
+            <tur:autista codice="A004"/>
+            <tur:linea codice="L001"/>
+            <tur:autobus codice="B0048"/>
+        </tur:turno>
+        <tur:turno id="648">
+            <tur:data>2024-02-27</tur:data>
+            <tur:ora_inizio>06:04:01</tur:ora_inizio>
+            <tur:ora_fine>12:34:01</tur:ora_fine>
+            <tur:autista codice="A006"/>
+            <tur:linea codice="L003"/>
+            <tur:autobus codice="B0034"/>
+        </tur:turno>
+        <tur:turno id="649">
+            <tur:data>2024-02-27</tur:data>
+            <tur:ora_inizio>11:08:44</tur:ora_inizio>
+            <tur:ora_fine>14:08:44</tur:ora_fine>
+            <tur:autista codice="A007"/>
+            <tur:linea codice="L007"/>
+            <tur:autobus codice="B0032"/>
+        </tur:turno>
+        <tur:turno id="650">
+            <tur:data>2024-02-27</tur:data>
+            <tur:ora_inizio>06:09:55</tur:ora_inizio>
+            <tur:ora_fine>13:09:55</tur:ora_fine>
+            <tur:autista codice="A009"/>
+            <tur:linea codice="L0013"/>
+            <tur:autobus codice="B0040"/>
+        </tur:turno>
+        <tur:turno id="651">
+            <tur:data>2024-02-27</tur:data>
+            <tur:ora_inizio>12:17:22</tur:ora_inizio>
+            <tur:ora_fine>16:47:22</tur:ora_fine>
+            <tur:autista codice="A003"/>
+            <tur:linea codice="L009"/>
+            <tur:autobus codice="B0039"/>
+        </tur:turno>
+        <tur:turno id="652">
+            <tur:data>2024-02-28</tur:data>
+            <tur:ora_inizio>13:53:27</tur:ora_inizio>
+            <tur:ora_fine>19:53:27</tur:ora_fine>
+            <tur:autista codice="A003"/>
+            <tur:linea codice="L0015"/>
+            <tur:autobus codice="B0033"/>
+        </tur:turno>
+        <tur:turno id="653">
+            <tur:data>2024-02-28</tur:data>
+            <tur:ora_inizio>05:03:33</tur:ora_inizio>
+            <tur:ora_fine>09:03:33</tur:ora_fine>
+            <tur:autista codice="A004"/>
+            <tur:linea codice="L0014"/>
+            <tur:autobus codice="B0028"/>
+        </tur:turno>
+        <tur:turno id="654">
+            <tur:data>2024-03-01</tur:data>
+            <tur:ora_inizio>12:41:02</tur:ora_inizio>
+            <tur:ora_fine>19:11:02</tur:ora_fine>
+            <tur:autista codice="A004"/>
+            <tur:linea codice="L006"/>
+            <tur:autobus codice="B0027"/>
+        </tur:turno>
+        <tur:turno id="655">
+            <tur:data>2024-03-01</tur:data>
+            <tur:ora_inizio>13:53:07</tur:ora_inizio>
+            <tur:ora_fine>18:23:07</tur:ora_fine>
+            <tur:autista codice="A005"/>
+            <tur:linea codice="L002"/>
+            <tur:autobus codice="B0043"/>
+        </tur:turno>
+        <tur:turno id="656">
+            <tur:data>2024-03-01</tur:data>
+            <tur:ora_inizio>07:03:13</tur:ora_inizio>
+            <tur:ora_fine>14:03:13</tur:ora_fine>
+            <tur:autista codice="A003"/>
+            <tur:linea codice="L003"/>
+            <tur:autobus codice="B0035"/>
+        </tur:turno>
+        <tur:turno id="657">
+            <tur:data>2024-03-02</tur:data>
+            <tur:ora_inizio>09:44:13</tur:ora_inizio>
+            <tur:ora_fine>12:44:13</tur:ora_fine>
+            <tur:autista codice="A007"/>
+            <tur:linea codice="L0012"/>
+            <tur:autobus codice="B0037"/>
+        </tur:turno>
+        <tur:turno id="658">
+            <tur:data>2024-03-04</tur:data>
+            <tur:ora_inizio>10:40:15</tur:ora_inizio>
+            <tur:ora_fine>12:40:15</tur:ora_fine>
+            <tur:autista codice="A008"/>
+            <tur:linea codice="L0013"/>
+            <tur:autobus codice="B0027"/>
+        </tur:turno>
+        <tur:turno id="659">
+            <tur:data>2024-03-04</tur:data>
+            <tur:ora_inizio>09:16:31</tur:ora_inizio>
+            <tur:ora_fine>16:46:31</tur:ora_fine>
+            <tur:autista codice="A005"/>
+            <tur:linea codice="L0013"/>
+            <tur:autobus codice="B0031"/>
+        </tur:turno>
+        <tur:turno id="660">
+            <tur:data>2024-03-04</tur:data>
+            <tur:ora_inizio>12:42:07</tur:ora_inizio>
+            <tur:ora_fine>17:42:07</tur:ora_fine>
+            <tur:autista codice="A003"/>
+            <tur:linea codice="L005"/>
+            <tur:autobus codice="B0029"/>
+        </tur:turno>
+        <tur:turno id="661">
+            <tur:data>2024-03-04</tur:data>
+            <tur:ora_inizio>13:58:45</tur:ora_inizio>
+            <tur:ora_fine>21:28:45</tur:ora_fine>
+            <tur:autista codice="A006"/>
+            <tur:linea codice="L0012"/>
+            <tur:autobus codice="B0030"/>
+        </tur:turno>
+        <tur:turno id="662">
+            <tur:data>2024-03-04</tur:data>
+            <tur:ora_inizio>06:31:49</tur:ora_inizio>
+            <tur:ora_fine>12:31:49</tur:ora_fine>
+            <tur:autista codice="A004"/>
+            <tur:linea codice="L0010"/>
+            <tur:autobus codice="B0026"/>
+        </tur:turno>
+        <tur:turno id="663">
+            <tur:data>2024-03-04</tur:data>
+            <tur:ora_inizio>08:29:58</tur:ora_inizio>
+            <tur:ora_fine>14:29:58</tur:ora_fine>
+            <tur:autista codice="A0010"/>
+            <tur:linea codice="L005"/>
+            <tur:autobus codice="B0043"/>
+        </tur:turno>
+        <tur:turno id="664">
+            <tur:data>2024-03-05</tur:data>
+            <tur:ora_inizio>13:53:27</tur:ora_inizio>
+            <tur:ora_fine>15:53:27</tur:ora_fine>
+            <tur:autista codice="A007"/>
+            <tur:linea codice="L005"/>
+            <tur:autobus codice="B0048"/>
+        </tur:turno>
+        <tur:turno id="665">
+            <tur:data>2024-03-05</tur:data>
+            <tur:ora_inizio>13:44:42</tur:ora_inizio>
+            <tur:ora_fine>16:44:42</tur:ora_fine>
+            <tur:autista codice="A009"/>
+            <tur:linea codice="L0014"/>
+            <tur:autobus codice="B0034"/>
+        </tur:turno>
+        <tur:turno id="666">
+            <tur:data>2024-03-05</tur:data>
+            <tur:ora_inizio>06:59:40</tur:ora_inizio>
+            <tur:ora_fine>12:59:40</tur:ora_fine>
+            <tur:autista codice="A005"/>
+            <tur:linea codice="L005"/>
+            <tur:autobus codice="B0043"/>
+        </tur:turno>
+        <tur:turno id="667">
+            <tur:data>2024-03-05</tur:data>
+            <tur:ora_inizio>05:36:15</tur:ora_inizio>
+            <tur:ora_fine>12:06:15</tur:ora_fine>
+            <tur:autista codice="A006"/>
+            <tur:linea codice="L004"/>
+            <tur:autobus codice="B0032"/>
+        </tur:turno>
+        <tur:turno id="668">
+            <tur:data>2024-03-06</tur:data>
+            <tur:ora_inizio>09:19:38</tur:ora_inizio>
+            <tur:ora_fine>17:19:38</tur:ora_fine>
+            <tur:autista codice="A004"/>
+            <tur:linea codice="L003"/>
+            <tur:autobus codice="B0046"/>
+        </tur:turno>
+        <tur:turno id="669">
+            <tur:data>2024-03-06</tur:data>
+            <tur:ora_inizio>06:36:07</tur:ora_inizio>
+            <tur:ora_fine>12:06:07</tur:ora_fine>
+            <tur:autista codice="A006"/>
+            <tur:linea codice="L0012"/>
+            <tur:autobus codice="B0042"/>
+        </tur:turno>
+        <tur:turno id="670">
+            <tur:data>2024-03-06</tur:data>
+            <tur:ora_inizio>08:08:31</tur:ora_inizio>
+            <tur:ora_fine>11:38:31</tur:ora_fine>
+            <tur:autista codice="A0010"/>
+            <tur:linea codice="L002"/>
+            <tur:autobus codice="B0039"/>
+        </tur:turno>
+        <tur:turno id="671">
+            <tur:data>2024-03-06</tur:data>
+            <tur:ora_inizio>11:39:07</tur:ora_inizio>
+            <tur:ora_fine>13:39:07</tur:ora_fine>
+            <tur:autista codice="A0010"/>
+            <tur:linea codice="L0014"/>
+            <tur:autobus codice="B0044"/>
+        </tur:turno>
+        <tur:turno id="672">
+            <tur:data>2024-03-06</tur:data>
+            <tur:ora_inizio>07:51:14</tur:ora_inizio>
+            <tur:ora_fine>12:21:14</tur:ora_fine>
+            <tur:autista codice="A009"/>
+            <tur:linea codice="L0011"/>
+            <tur:autobus codice="B0041"/>
+        </tur:turno>
+        <tur:turno id="673">
+            <tur:data>2024-03-06</tur:data>
+            <tur:ora_inizio>10:22:55</tur:ora_inizio>
+            <tur:ora_fine>14:22:55</tur:ora_fine>
+            <tur:autista codice="A003"/>
+            <tur:linea codice="L009"/>
+            <tur:autobus codice="B0039"/>
+        </tur:turno>
+        <tur:turno id="674">
+            <tur:data>2024-03-06</tur:data>
+            <tur:ora_inizio>13:53:07</tur:ora_inizio>
+            <tur:ora_fine>21:23:07</tur:ora_fine>
+            <tur:autista codice="A005"/>
+            <tur:linea codice="L003"/>
+            <tur:autobus codice="B0038"/>
+        </tur:turno>
+        <tur:turno id="675">
+            <tur:data>2024-03-06</tur:data>
+            <tur:ora_inizio>09:12:22</tur:ora_inizio>
+            <tur:ora_fine>12:42:22</tur:ora_fine>
+            <tur:autista codice="A007"/>
+            <tur:linea codice="L0012"/>
+            <tur:autobus codice="B0028"/>
+        </tur:turno>
+        <tur:turno id="676">
+            <tur:data>2024-03-06</tur:data>
+            <tur:ora_inizio>10:22:55</tur:ora_inizio>
+            <tur:ora_fine>13:22:55</tur:ora_fine>
+            <tur:autista codice="A005"/>
+            <tur:linea codice="L0015"/>
+            <tur:autobus codice="B0041"/>
+        </tur:turno>
+        <tur:turno id="677">
+            <tur:data>2024-03-08</tur:data>
+            <tur:ora_inizio>06:59:40</tur:ora_inizio>
+            <tur:ora_fine>10:29:40</tur:ora_fine>
+            <tur:autista codice="A009"/>
+            <tur:linea codice="L009"/>
+            <tur:autobus codice="B0031"/>
+        </tur:turno>
+        <tur:turno id="678">
+            <tur:data>2024-03-08</tur:data>
+            <tur:ora_inizio>06:09:55</tur:ora_inizio>
+            <tur:ora_fine>13:09:55</tur:ora_fine>
+            <tur:autista codice="A007"/>
+            <tur:linea codice="L0011"/>
+            <tur:autobus codice="B0046"/>
+        </tur:turno>
+        <tur:turno id="679">
+            <tur:data>2024-03-08</tur:data>
+            <tur:ora_inizio>12:15:29</tur:ora_inizio>
+            <tur:ora_fine>15:45:29</tur:ora_fine>
+            <tur:autista codice="A008"/>
+            <tur:linea codice="L0010"/>
+            <tur:autobus codice="B0034"/>
+        </tur:turno>
+        <tur:turno id="680">
+            <tur:data>2024-03-16</tur:data>
+            <tur:ora_inizio>11:27:40</tur:ora_inizio>
+            <tur:ora_fine>18:27:40</tur:ora_fine>
+            <tur:autista codice="A005"/>
+            <tur:linea codice="L003"/>
+            <tur:autobus codice="B0042"/>
+        </tur:turno>
+        <tur:turno id="681">
+            <tur:data>2024-03-16</tur:data>
+            <tur:ora_inizio>11:17:49</tur:ora_inizio>
+            <tur:ora_fine>18:47:49</tur:ora_fine>
+            <tur:autista codice="A008"/>
+            <tur:linea codice="L0012"/>
+            <tur:autobus codice="B0042"/>
+        </tur:turno>
+        <tur:turno id="682">
+            <tur:data>2024-03-17</tur:data>
+            <tur:ora_inizio>10:57:43</tur:ora_inizio>
+            <tur:ora_fine>14:57:43</tur:ora_fine>
+            <tur:autista codice="A002"/>
+            <tur:linea codice="L0014"/>
+            <tur:autobus codice="B0048"/>
+        </tur:turno>
+        <tur:turno id="683">
+            <tur:data>2024-03-17</tur:data>
+            <tur:ora_inizio>09:40:47</tur:ora_inizio>
+            <tur:ora_fine>14:10:47</tur:ora_fine>
+            <tur:autista codice="A008"/>
+            <tur:linea codice="L002"/>
+            <tur:autobus codice="B0045"/>
+        </tur:turno>
+        <tur:turno id="684">
+            <tur:data>2024-03-17</tur:data>
+            <tur:ora_inizio>07:11:40</tur:ora_inizio>
+            <tur:ora_fine>10:11:40</tur:ora_fine>
+            <tur:autista codice="A002"/>
+            <tur:linea codice="L008"/>
+            <tur:autobus codice="B0036"/>
+        </tur:turno>
+        <tur:turno id="685">
+            <tur:data>2024-03-17</tur:data>
+            <tur:ora_inizio>05:03:33</tur:ora_inizio>
+            <tur:ora_fine>08:03:33</tur:ora_fine>
+            <tur:autista codice="A008"/>
+            <tur:linea codice="L0010"/>
+            <tur:autobus codice="B0028"/>
+        </tur:turno>
+        <tur:turno id="686">
+            <tur:data>2024-03-18</tur:data>
+            <tur:ora_inizio>10:22:00</tur:ora_inizio>
+            <tur:ora_fine>17:22:00</tur:ora_fine>
+            <tur:autista codice="A006"/>
+            <tur:linea codice="L0010"/>
+            <tur:autobus codice="B0034"/>
+        </tur:turno>
+        <tur:turno id="687">
+            <tur:data>2024-03-18</tur:data>
+            <tur:ora_inizio>13:37:34</tur:ora_inizio>
+            <tur:ora_fine>21:07:34</tur:ora_fine>
+            <tur:autista codice="A004"/>
+            <tur:linea codice="L0015"/>
+            <tur:autobus codice="B0039"/>
+        </tur:turno>
+        <tur:turno id="688">
+            <tur:data>2024-03-18</tur:data>
+            <tur:ora_inizio>08:53:17</tur:ora_inizio>
+            <tur:ora_fine>12:23:17</tur:ora_fine>
+            <tur:autista codice="A004"/>
+            <tur:linea codice="L002"/>
+            <tur:autobus codice="B0041"/>
+        </tur:turno>
+        <tur:turno id="689">
+            <tur:data>2024-03-18</tur:data>
+            <tur:ora_inizio>12:58:46</tur:ora_inizio>
+            <tur:ora_fine>16:58:46</tur:ora_fine>
+            <tur:autista codice="A002"/>
+            <tur:linea codice="L0014"/>
+            <tur:autobus codice="B0035"/>
+        </tur:turno>
+        <tur:turno id="690">
+            <tur:data>2024-03-18</tur:data>
+            <tur:ora_inizio>13:52:36</tur:ora_inizio>
+            <tur:ora_fine>19:52:36</tur:ora_fine>
+            <tur:autista codice="A003"/>
+            <tur:linea codice="L007"/>
+            <tur:autobus codice="B0025"/>
+        </tur:turno>
+        <tur:turno id="691">
+            <tur:data>2024-03-18</tur:data>
+            <tur:ora_inizio>09:12:48</tur:ora_inizio>
+            <tur:ora_fine>17:12:48</tur:ora_fine>
+            <tur:autista codice="A007"/>
+            <tur:linea codice="L005"/>
+            <tur:autobus codice="B0035"/>
+        </tur:turno>
+        <tur:turno id="692">
+            <tur:data>2024-03-18</tur:data>
+            <tur:ora_inizio>06:31:49</tur:ora_inizio>
+            <tur:ora_fine>10:01:49</tur:ora_fine>
+            <tur:autista codice="A006"/>
+            <tur:linea codice="L008"/>
+            <tur:autobus codice="B0037"/>
+        </tur:turno>
+        <tur:turno id="693">
+            <tur:data>2024-03-18</tur:data>
+            <tur:ora_inizio>08:08:31</tur:ora_inizio>
+            <tur:ora_fine>12:38:31</tur:ora_fine>
+            <tur:autista codice="A005"/>
+            <tur:linea codice="L004"/>
+            <tur:autobus codice="B0046"/>
+        </tur:turno>
+        <tur:turno id="694">
+            <tur:data>2024-03-19</tur:data>
+            <tur:ora_inizio>10:22:55</tur:ora_inizio>
+            <tur:ora_fine>14:52:55</tur:ora_fine>
+            <tur:autista codice="A003"/>
+            <tur:linea codice="L006"/>
+            <tur:autobus codice="B0047"/>
+        </tur:turno>
+        <tur:turno id="695">
+            <tur:data>2024-03-19</tur:data>
+            <tur:ora_inizio>06:32:03</tur:ora_inizio>
+            <tur:ora_fine>09:32:03</tur:ora_fine>
+            <tur:autista codice="A003"/>
+            <tur:linea codice="L001"/>
+            <tur:autobus codice="B0040"/>
+        </tur:turno>
+        <tur:turno id="696">
+            <tur:data>2024-03-19</tur:data>
+            <tur:ora_inizio>09:31:02</tur:ora_inizio>
+            <tur:ora_fine>12:01:02</tur:ora_fine>
+            <tur:autista codice="A004"/>
+            <tur:linea codice="L006"/>
+            <tur:autobus codice="B0034"/>
+        </tur:turno>
+        <tur:turno id="697">
+            <tur:data>2024-03-20</tur:data>
+            <tur:ora_inizio>08:08:31</tur:ora_inizio>
+            <tur:ora_fine>13:38:31</tur:ora_fine>
+            <tur:autista codice="A008"/>
+            <tur:linea codice="L006"/>
+            <tur:autobus codice="B0041"/>
+        </tur:turno>
+        <tur:turno id="698">
+            <tur:data>2024-03-20</tur:data>
+            <tur:ora_inizio>13:15:50</tur:ora_inizio>
+            <tur:ora_fine>18:45:50</tur:ora_fine>
+            <tur:autista codice="A007"/>
+            <tur:linea codice="L0013"/>
+            <tur:autobus codice="B0038"/>
+        </tur:turno>
+        <tur:turno id="699">
+            <tur:data>2024-03-20</tur:data>
+            <tur:ora_inizio>12:15:29</tur:ora_inizio>
+            <tur:ora_fine>16:15:29</tur:ora_fine>
+            <tur:autista codice="A002"/>
+            <tur:linea codice="L003"/>
+            <tur:autobus codice="B0048"/>
+        </tur:turno>
+        <tur:turno id="700">
+            <tur:data>2024-03-20</tur:data>
+            <tur:ora_inizio>12:42:07</tur:ora_inizio>
+            <tur:ora_fine>20:42:07</tur:ora_fine>
+            <tur:autista codice="A0010"/>
+            <tur:linea codice="L001"/>
+            <tur:autobus codice="B0039"/>
+        </tur:turno>
+        <tur:turno id="701">
+            <tur:data>2024-03-20</tur:data>
+            <tur:ora_inizio>06:28:53</tur:ora_inizio>
+            <tur:ora_fine>09:28:53</tur:ora_fine>
+            <tur:autista codice="A006"/>
+            <tur:linea codice="L007"/>
+            <tur:autobus codice="B0027"/>
+        </tur:turno>
+        <tur:turno id="702">
+            <tur:data>2024-03-20</tur:data>
+            <tur:ora_inizio>11:17:49</tur:ora_inizio>
+            <tur:ora_fine>15:17:49</tur:ora_fine>
+            <tur:autista codice="A003"/>
+            <tur:linea codice="L005"/>
+            <tur:autobus codice="B0028"/>
+        </tur:turno>
+        <tur:turno id="703">
+            <tur:data>2024-03-23</tur:data>
+            <tur:ora_inizio>06:59:40</tur:ora_inizio>
+            <tur:ora_fine>08:59:40</tur:ora_fine>
+            <tur:autista codice="A004"/>
+            <tur:linea codice="L009"/>
+            <tur:autobus codice="B0044"/>
+        </tur:turno>
+        <tur:turno id="704">
+            <tur:data>2024-03-23</tur:data>
+            <tur:ora_inizio>09:12:48</tur:ora_inizio>
+            <tur:ora_fine>13:12:48</tur:ora_fine>
+            <tur:autista codice="A007"/>
+            <tur:linea codice="L003"/>
+            <tur:autobus codice="B0038"/>
+        </tur:turno>
+        <tur:turno id="705">
+            <tur:data>2024-03-23</tur:data>
+            <tur:ora_inizio>06:09:55</tur:ora_inizio>
+            <tur:ora_fine>09:39:55</tur:ora_fine>
+            <tur:autista codice="A005"/>
+            <tur:linea codice="L0014"/>
+            <tur:autobus codice="B0035"/>
+        </tur:turno>
+        <tur:turno id="706">
+            <tur:data>2024-03-23</tur:data>
+            <tur:ora_inizio>08:37:53</tur:ora_inizio>
+            <tur:ora_fine>11:07:53</tur:ora_fine>
+            <tur:autista codice="A009"/>
+            <tur:linea codice="L0013"/>
+            <tur:autobus codice="B0042"/>
+        </tur:turno>
+        <tur:turno id="707">
+            <tur:data>2024-03-23</tur:data>
+            <tur:ora_inizio>06:04:01</tur:ora_inizio>
+            <tur:ora_fine>12:34:01</tur:ora_fine>
+            <tur:autista codice="A008"/>
+            <tur:linea codice="L0015"/>
+            <tur:autobus codice="B0044"/>
+        </tur:turno>
+        <tur:turno id="708">
+            <tur:data>2024-03-23</tur:data>
+            <tur:ora_inizio>10:01:52</tur:ora_inizio>
+            <tur:ora_fine>15:31:52</tur:ora_fine>
+            <tur:autista codice="A002"/>
+            <tur:linea codice="L004"/>
+            <tur:autobus codice="B0035"/>
+        </tur:turno>
+        <tur:turno id="709">
+            <tur:data>2024-03-23</tur:data>
+            <tur:ora_inizio>13:53:27</tur:ora_inizio>
+            <tur:ora_fine>16:23:27</tur:ora_fine>
+            <tur:autista codice="A0010"/>
+            <tur:linea codice="L008"/>
+            <tur:autobus codice="B0048"/>
+        </tur:turno>
+        <tur:turno id="710">
+            <tur:data>2024-03-23</tur:data>
+            <tur:ora_inizio>12:52:35</tur:ora_inizio>
+            <tur:ora_fine>18:52:35</tur:ora_fine>
+            <tur:autista codice="A005"/>
+            <tur:linea codice="L0012"/>
+            <tur:autobus codice="B0045"/>
+        </tur:turno>
+        <tur:turno id="711">
+            <tur:data>2024-03-23</tur:data>
+            <tur:ora_inizio>13:44:42</tur:ora_inizio>
+            <tur:ora_fine>19:44:42</tur:ora_fine>
+            <tur:autista codice="A003"/>
+            <tur:linea codice="L0013"/>
+            <tur:autobus codice="B0030"/>
+        </tur:turno>
+        <tur:turno id="712">
+            <tur:data>2024-03-26</tur:data>
+            <tur:ora_inizio>06:48:11</tur:ora_inizio>
+            <tur:ora_fine>12:48:11</tur:ora_fine>
+            <tur:autista codice="A004"/>
+            <tur:linea codice="L005"/>
+            <tur:autobus codice="B0039"/>
+        </tur:turno>
+        <tur:turno id="713">
+            <tur:data>2024-03-26</tur:data>
+            <tur:ora_inizio>09:19:38</tur:ora_inizio>
+            <tur:ora_fine>13:19:38</tur:ora_fine>
+            <tur:autista codice="A003"/>
+            <tur:linea codice="L004"/>
+            <tur:autobus codice="B0026"/>
+        </tur:turno>
+        <tur:turno id="714">
+            <tur:data>2024-03-26</tur:data>
+            <tur:ora_inizio>06:36:07</tur:ora_inizio>
+            <tur:ora_fine>10:06:07</tur:ora_fine>
+            <tur:autista codice="A0010"/>
+            <tur:linea codice="L0010"/>
+            <tur:autobus codice="B0041"/>
+        </tur:turno>
+        <tur:turno id="715">
+            <tur:data>2024-03-26</tur:data>
+            <tur:ora_inizio>11:17:49</tur:ora_inizio>
+            <tur:ora_fine>19:17:49</tur:ora_fine>
+            <tur:autista codice="A005"/>
+            <tur:linea codice="L0010"/>
+            <tur:autobus codice="B0033"/>
+        </tur:turno>
+        <tur:turno id="716">
+            <tur:data>2024-03-26</tur:data>
+            <tur:ora_inizio>05:33:59</tur:ora_inizio>
+            <tur:ora_fine>07:33:59</tur:ora_fine>
+            <tur:autista codice="A003"/>
+            <tur:linea codice="L005"/>
+            <tur:autobus codice="B0034"/>
+        </tur:turno>
+        <tur:turno id="717">
+            <tur:data>2024-03-26</tur:data>
+            <tur:ora_inizio>13:44:48</tur:ora_inizio>
+            <tur:ora_fine>17:14:48</tur:ora_fine>
+            <tur:autista codice="A0010"/>
+            <tur:linea codice="L0014"/>
+            <tur:autobus codice="B0045"/>
+        </tur:turno>
+        <tur:turno id="718">
+            <tur:data>2024-03-27</tur:data>
+            <tur:ora_inizio>07:51:14</tur:ora_inizio>
+            <tur:ora_fine>10:51:14</tur:ora_fine>
+            <tur:autista codice="A003"/>
+            <tur:linea codice="L008"/>
+            <tur:autobus codice="B0036"/>
+        </tur:turno>
+        <tur:turno id="719">
+            <tur:data>2024-03-27</tur:data>
+            <tur:ora_inizio>11:27:44</tur:ora_inizio>
+            <tur:ora_fine>14:57:44</tur:ora_fine>
+            <tur:autista codice="A005"/>
+            <tur:linea codice="L005"/>
+            <tur:autobus codice="B0034"/>
+        </tur:turno>
+        <tur:turno id="720">
+            <tur:data>2024-03-27</tur:data>
+            <tur:ora_inizio>09:44:13</tur:ora_inizio>
+            <tur:ora_fine>12:14:13</tur:ora_fine>
+            <tur:autista codice="A008"/>
+            <tur:linea codice="L003"/>
+            <tur:autobus codice="B0045"/>
+        </tur:turno>
+        <tur:turno id="721">
+            <tur:data>2024-03-27</tur:data>
+            <tur:ora_inizio>11:10:37</tur:ora_inizio>
+            <tur:ora_fine>15:40:37</tur:ora_fine>
+            <tur:autista codice="A004"/>
+            <tur:linea codice="L003"/>
+            <tur:autobus codice="B0026"/>
+        </tur:turno>
+        <tur:turno id="722">
+            <tur:data>2024-03-29</tur:data>
+            <tur:ora_inizio>06:59:40</tur:ora_inizio>
+            <tur:ora_fine>13:29:40</tur:ora_fine>
+            <tur:autista codice="A005"/>
+            <tur:linea codice="L001"/>
+            <tur:autobus codice="B0041"/>
+        </tur:turno>
+        <tur:turno id="723">
+            <tur:data>2024-03-29</tur:data>
+            <tur:ora_inizio>05:39:31</tur:ora_inizio>
+            <tur:ora_fine>10:39:31</tur:ora_fine>
+            <tur:autista codice="A007"/>
+            <tur:linea codice="L0011"/>
+            <tur:autobus codice="B0038"/>
+        </tur:turno>
+        <tur:turno id="724">
+            <tur:data>2024-03-29</tur:data>
+            <tur:ora_inizio>07:11:40</tur:ora_inizio>
+            <tur:ora_fine>14:11:40</tur:ora_fine>
+            <tur:autista codice="A004"/>
+            <tur:linea codice="L007"/>
+            <tur:autobus codice="B0039"/>
+        </tur:turno>
+        <tur:turno id="725">
+            <tur:data>2024-03-29</tur:data>
+            <tur:ora_inizio>07:46:11</tur:ora_inizio>
+            <tur:ora_fine>10:46:11</tur:ora_fine>
+            <tur:autista codice="A002"/>
+            <tur:linea codice="L0013"/>
+            <tur:autobus codice="B0047"/>
+        </tur:turno>
+        <tur:turno id="726">
+            <tur:data>2024-03-30</tur:data>
+            <tur:ora_inizio>13:44:48</tur:ora_inizio>
+            <tur:ora_fine>20:44:48</tur:ora_fine>
+            <tur:autista codice="A004"/>
+            <tur:linea codice="L0014"/>
+            <tur:autobus codice="B0037"/>
+        </tur:turno>
+        <tur:turno id="727">
+            <tur:data>2024-03-30</tur:data>
+            <tur:ora_inizio>06:32:05</tur:ora_inizio>
+            <tur:ora_fine>11:32:05</tur:ora_fine>
+            <tur:autista codice="A007"/>
+            <tur:linea codice="L0015"/>
+            <tur:autobus codice="B0034"/>
+        </tur:turno>
+        <tur:turno id="728">
+            <tur:data>2024-03-30</tur:data>
+            <tur:ora_inizio>10:37:59</tur:ora_inizio>
+            <tur:ora_fine>15:07:59</tur:ora_fine>
+            <tur:autista codice="A005"/>
+            <tur:linea codice="L005"/>
+            <tur:autobus codice="B0040"/>
+        </tur:turno>
+        <tur:turno id="729">
+            <tur:data>2024-03-30</tur:data>
+            <tur:ora_inizio>11:21:45</tur:ora_inizio>
+            <tur:ora_fine>16:21:45</tur:ora_fine>
+            <tur:autista codice="A008"/>
+            <tur:linea codice="L0010"/>
+            <tur:autobus codice="B0035"/>
+        </tur:turno>
+        <tur:turno id="730">
+            <tur:data>2024-03-30</tur:data>
+            <tur:ora_inizio>10:14:22</tur:ora_inizio>
+            <tur:ora_fine>12:14:22</tur:ora_fine>
+            <tur:autista codice="A0010"/>
+            <tur:linea codice="L0010"/>
+            <tur:autobus codice="B0035"/>
+        </tur:turno>
+        <tur:turno id="731">
+            <tur:data>2024-03-31</tur:data>
+            <tur:ora_inizio>09:12:48</tur:ora_inizio>
+            <tur:ora_fine>15:12:48</tur:ora_fine>
+            <tur:autista codice="A008"/>
+            <tur:linea codice="L003"/>
+            <tur:autobus codice="B0033"/>
+        </tur:turno>
+        <tur:turno id="732">
+            <tur:data>2024-03-31</tur:data>
+            <tur:ora_inizio>13:52:36</tur:ora_inizio>
+            <tur:ora_fine>21:22:36</tur:ora_fine>
+            <tur:autista codice="A003"/>
+            <tur:linea codice="L001"/>
+            <tur:autobus codice="B0031"/>
+        </tur:turno>
+        <tur:turno id="733">
+            <tur:data>2024-04-03</tur:data>
+            <tur:ora_inizio>12:41:02</tur:ora_inizio>
+            <tur:ora_fine>16:11:02</tur:ora_fine>
+            <tur:autista codice="A0010"/>
+            <tur:linea codice="L004"/>
+            <tur:autobus codice="B0046"/>
+        </tur:turno>
+        <tur:turno id="734">
+            <tur:data>2024-04-07</tur:data>
+            <tur:ora_inizio>05:36:15</tur:ora_inizio>
+            <tur:ora_fine>13:36:15</tur:ora_fine>
+            <tur:autista codice="A002"/>
+            <tur:linea codice="L004"/>
+            <tur:autobus codice="B0045"/>
+        </tur:turno>
+        <tur:turno id="735">
+            <tur:data>2024-04-07</tur:data>
+            <tur:ora_inizio>06:32:03</tur:ora_inizio>
+            <tur:ora_fine>10:32:03</tur:ora_fine>
+            <tur:autista codice="A009"/>
+            <tur:linea codice="L008"/>
+            <tur:autobus codice="B0033"/>
+        </tur:turno>
+        <tur:turno id="736">
+            <tur:data>2024-04-07</tur:data>
+            <tur:ora_inizio>13:53:27</tur:ora_inizio>
+            <tur:ora_fine>17:23:27</tur:ora_fine>
+            <tur:autista codice="A0010"/>
+            <tur:linea codice="L007"/>
+            <tur:autobus codice="B0040"/>
+        </tur:turno>
+        <tur:turno id="737">
+            <tur:data>2024-04-07</tur:data>
+            <tur:ora_inizio>13:53:07</tur:ora_inizio>
+            <tur:ora_fine>20:53:07</tur:ora_fine>
+            <tur:autista codice="A004"/>
+            <tur:linea codice="L005"/>
+            <tur:autobus codice="B0048"/>
+        </tur:turno>
+        <tur:turno id="738">
+            <tur:data>2024-04-10</tur:data>
+            <tur:ora_inizio>12:01:56</tur:ora_inizio>
+            <tur:ora_fine>18:31:56</tur:ora_fine>
+            <tur:autista codice="A004"/>
+            <tur:linea codice="L0014"/>
+            <tur:autobus codice="B0043"/>
+        </tur:turno>
+        <tur:turno id="739">
+            <tur:data>2024-04-10</tur:data>
+            <tur:ora_inizio>11:44:07</tur:ora_inizio>
+            <tur:ora_fine>14:44:07</tur:ora_fine>
+            <tur:autista codice="A005"/>
+            <tur:linea codice="L002"/>
+            <tur:autobus codice="B0031"/>
+        </tur:turno>
+        <tur:turno id="740">
+            <tur:data>2024-04-10</tur:data>
+            <tur:ora_inizio>12:48:39</tur:ora_inizio>
+            <tur:ora_fine>18:18:39</tur:ora_fine>
+            <tur:autista codice="A0010"/>
+            <tur:linea codice="L001"/>
+            <tur:autobus codice="B0030"/>
+        </tur:turno>
+        <tur:turno id="741">
+            <tur:data>2024-04-10</tur:data>
+            <tur:ora_inizio>09:19:38</tur:ora_inizio>
+            <tur:ora_fine>15:49:38</tur:ora_fine>
+            <tur:autista codice="A008"/>
+            <tur:linea codice="L0010"/>
+            <tur:autobus codice="B0030"/>
+        </tur:turno>
+        <tur:turno id="742">
+            <tur:data>2024-04-10</tur:data>
+            <tur:ora_inizio>07:11:40</tur:ora_inizio>
+            <tur:ora_fine>12:41:40</tur:ora_fine>
+            <tur:autista codice="A007"/>
+            <tur:linea codice="L0011"/>
+            <tur:autobus codice="B0044"/>
+        </tur:turno>
+        <tur:turno id="743">
+            <tur:data>2024-04-11</tur:data>
+            <tur:ora_inizio>13:55:12</tur:ora_inizio>
+            <tur:ora_fine>17:55:12</tur:ora_fine>
+            <tur:autista codice="A002"/>
+            <tur:linea codice="L006"/>
+            <tur:autobus codice="B0048"/>
+        </tur:turno>
+        <tur:turno id="744">
+            <tur:data>2024-04-11</tur:data>
+            <tur:ora_inizio>11:17:49</tur:ora_inizio>
+            <tur:ora_fine>13:47:49</tur:ora_fine>
+            <tur:autista codice="A009"/>
+            <tur:linea codice="L001"/>
+            <tur:autobus codice="B0028"/>
+        </tur:turno>
+        <tur:turno id="745">
+            <tur:data>2024-04-13</tur:data>
+            <tur:ora_inizio>06:31:49</tur:ora_inizio>
+            <tur:ora_fine>11:31:49</tur:ora_fine>
+            <tur:autista codice="A002"/>
+            <tur:linea codice="L003"/>
+            <tur:autobus codice="B0027"/>
+        </tur:turno>
+        <tur:turno id="746">
+            <tur:data>2024-04-13</tur:data>
+            <tur:ora_inizio>10:39:41</tur:ora_inizio>
+            <tur:ora_fine>17:09:41</tur:ora_fine>
+            <tur:autista codice="A004"/>
+            <tur:linea codice="L0013"/>
+            <tur:autobus codice="B0026"/>
+        </tur:turno>
+        <tur:turno id="747">
+            <tur:data>2024-04-13</tur:data>
+            <tur:ora_inizio>10:01:52</tur:ora_inizio>
+            <tur:ora_fine>13:01:52</tur:ora_fine>
+            <tur:autista codice="A009"/>
+            <tur:linea codice="L0011"/>
+            <tur:autobus codice="B0047"/>
+        </tur:turno>
+        <tur:turno id="748">
+            <tur:data>2024-04-13</tur:data>
+            <tur:ora_inizio>06:32:03</tur:ora_inizio>
+            <tur:ora_fine>13:02:03</tur:ora_fine>
+            <tur:autista codice="A006"/>
+            <tur:linea codice="L0012"/>
+            <tur:autobus codice="B0047"/>
+        </tur:turno>
+        <tur:turno id="749">
+            <tur:data>2024-04-13</tur:data>
+            <tur:ora_inizio>08:29:58</tur:ora_inizio>
+            <tur:ora_fine>15:29:58</tur:ora_fine>
+            <tur:autista codice="A007"/>
+            <tur:linea codice="L001"/>
+            <tur:autobus codice="B0027"/>
+        </tur:turno>
+        <tur:turno id="750">
+            <tur:data>2024-04-13</tur:data>
+            <tur:ora_inizio>09:12:22</tur:ora_inizio>
+            <tur:ora_fine>11:42:22</tur:ora_fine>
+            <tur:autista codice="A0010"/>
+            <tur:linea codice="L002"/>
+            <tur:autobus codice="B0032"/>
+        </tur:turno>
+        <tur:turno id="751">
+            <tur:data>2024-04-13</tur:data>
+            <tur:ora_inizio>12:01:56</tur:ora_inizio>
+            <tur:ora_fine>19:31:56</tur:ora_fine>
+            <tur:autista codice="A008"/>
+            <tur:linea codice="L0010"/>
+            <tur:autobus codice="B0033"/>
+        </tur:turno>
+        <tur:turno id="752">
+            <tur:data>2024-04-14</tur:data>
+            <tur:ora_inizio>12:41:02</tur:ora_inizio>
+            <tur:ora_fine>16:11:02</tur:ora_fine>
+            <tur:autista codice="A002"/>
+            <tur:linea codice="L003"/>
+            <tur:autobus codice="B0040"/>
+        </tur:turno>
+        <tur:turno id="753">
+            <tur:data>2024-04-14</tur:data>
+            <tur:ora_inizio>06:31:49</tur:ora_inizio>
+            <tur:ora_fine>09:01:49</tur:ora_fine>
+            <tur:autista codice="A003"/>
+            <tur:linea codice="L005"/>
+            <tur:autobus codice="B0041"/>
+        </tur:turno>
+        <tur:turno id="754">
+            <tur:data>2024-04-14</tur:data>
+            <tur:ora_inizio>11:44:07</tur:ora_inizio>
+            <tur:ora_fine>14:14:07</tur:ora_fine>
+            <tur:autista codice="A006"/>
+            <tur:linea codice="L0010"/>
+            <tur:autobus codice="B0042"/>
+        </tur:turno>
+        <tur:turno id="755">
+            <tur:data>2024-04-14</tur:data>
+            <tur:ora_inizio>13:32:39</tur:ora_inizio>
+            <tur:ora_fine>16:02:39</tur:ora_fine>
+            <tur:autista codice="A004"/>
+            <tur:linea codice="L002"/>
+            <tur:autobus codice="B0031"/>
+        </tur:turno>
+        <tur:turno id="756">
+            <tur:data>2024-04-15</tur:data>
+            <tur:ora_inizio>10:01:52</tur:ora_inizio>
+            <tur:ora_fine>16:01:52</tur:ora_fine>
+            <tur:autista codice="A0010"/>
+            <tur:linea codice="L003"/>
+            <tur:autobus codice="B0032"/>
+        </tur:turno>
+        <tur:turno id="757">
+            <tur:data>2024-04-15</tur:data>
+            <tur:ora_inizio>10:31:43</tur:ora_inizio>
+            <tur:ora_fine>15:01:43</tur:ora_fine>
+            <tur:autista codice="A005"/>
+            <tur:linea codice="L005"/>
+            <tur:autobus codice="B0045"/>
+        </tur:turno>
+        <tur:turno id="758">
+            <tur:data>2024-04-15</tur:data>
+            <tur:ora_inizio>11:27:40</tur:ora_inizio>
+            <tur:ora_fine>13:57:40</tur:ora_fine>
+            <tur:autista codice="A009"/>
+            <tur:linea codice="L005"/>
+            <tur:autobus codice="B0033"/>
+        </tur:turno>
+        <tur:turno id="759">
+            <tur:data>2024-04-16</tur:data>
+            <tur:ora_inizio>11:57:43</tur:ora_inizio>
+            <tur:ora_fine>15:57:43</tur:ora_fine>
+            <tur:autista codice="A004"/>
+            <tur:linea codice="L007"/>
+            <tur:autobus codice="B0026"/>
+        </tur:turno>
+        <tur:turno id="760">
+            <tur:data>2024-04-16</tur:data>
+            <tur:ora_inizio>12:42:07</tur:ora_inizio>
+            <tur:ora_fine>17:12:07</tur:ora_fine>
+            <tur:autista codice="A002"/>
+            <tur:linea codice="L003"/>
+            <tur:autobus codice="B0034"/>
+        </tur:turno>
+        <tur:turno id="761">
+            <tur:data>2024-04-16</tur:data>
+            <tur:ora_inizio>10:06:19</tur:ora_inizio>
+            <tur:ora_fine>17:36:19</tur:ora_fine>
+            <tur:autista codice="A008"/>
+            <tur:linea codice="L005"/>
+            <tur:autobus codice="B0047"/>
+        </tur:turno>
+        <tur:turno id="762">
+            <tur:data>2024-04-22</tur:data>
+            <tur:ora_inizio>10:01:52</tur:ora_inizio>
+            <tur:ora_fine>12:01:52</tur:ora_fine>
+            <tur:autista codice="A006"/>
+            <tur:linea codice="L0014"/>
+            <tur:autobus codice="B0031"/>
+        </tur:turno>
+        <tur:turno id="763">
+            <tur:data>2024-04-23</tur:data>
+            <tur:ora_inizio>11:37:20</tur:ora_inizio>
+            <tur:ora_fine>18:37:20</tur:ora_fine>
+            <tur:autista codice="A003"/>
+            <tur:linea codice="L0010"/>
+            <tur:autobus codice="B0035"/>
+        </tur:turno>
+        <tur:turno id="764">
+            <tur:data>2024-04-23</tur:data>
+            <tur:ora_inizio>08:07:49</tur:ora_inizio>
+            <tur:ora_fine>12:37:49</tur:ora_fine>
+            <tur:autista codice="A0010"/>
+            <tur:linea codice="L0011"/>
+            <tur:autobus codice="B0029"/>
+        </tur:turno>
+        <tur:turno id="765">
+            <tur:data>2024-04-23</tur:data>
+            <tur:ora_inizio>05:39:31</tur:ora_inizio>
+            <tur:ora_fine>10:09:31</tur:ora_fine>
+            <tur:autista codice="A007"/>
+            <tur:linea codice="L0015"/>
+            <tur:autobus codice="B0028"/>
+        </tur:turno>
+        <tur:turno id="766">
+            <tur:data>2024-04-23</tur:data>
+            <tur:ora_inizio>09:19:38</tur:ora_inizio>
+            <tur:ora_fine>17:19:38</tur:ora_fine>
+            <tur:autista codice="A002"/>
+            <tur:linea codice="L008"/>
+            <tur:autobus codice="B0029"/>
+        </tur:turno>
+        <tur:turno id="767">
+            <tur:data>2024-04-23</tur:data>
+            <tur:ora_inizio>13:53:07</tur:ora_inizio>
+            <tur:ora_fine>21:23:07</tur:ora_fine>
+            <tur:autista codice="A009"/>
+            <tur:linea codice="L004"/>
+            <tur:autobus codice="B0043"/>
+        </tur:turno>
+        <tur:turno id="768">
+            <tur:data>2024-04-23</tur:data>
+            <tur:ora_inizio>08:17:48</tur:ora_inizio>
+            <tur:ora_fine>10:47:48</tur:ora_fine>
+            <tur:autista codice="A003"/>
+            <tur:linea codice="L0012"/>
+            <tur:autobus codice="B0029"/>
+        </tur:turno>
+        <tur:turno id="769">
+            <tur:data>2024-04-25</tur:data>
+            <tur:ora_inizio>11:10:37</tur:ora_inizio>
+            <tur:ora_fine>13:10:37</tur:ora_fine>
+            <tur:autista codice="A005"/>
+            <tur:linea codice="L007"/>
+            <tur:autobus codice="B0035"/>
+        </tur:turno>
+        <tur:turno id="770">
+            <tur:data>2024-04-25</tur:data>
+            <tur:ora_inizio>09:46:06</tur:ora_inizio>
+            <tur:ora_fine>13:16:06</tur:ora_fine>
+            <tur:autista codice="A008"/>
+            <tur:linea codice="L0013"/>
+            <tur:autobus codice="B0040"/>
+        </tur:turno>
+        <tur:turno id="771">
+            <tur:data>2024-04-25</tur:data>
+            <tur:ora_inizio>13:32:39</tur:ora_inizio>
+            <tur:ora_fine>18:02:39</tur:ora_fine>
+            <tur:autista codice="A003"/>
+            <tur:linea codice="L008"/>
+            <tur:autobus codice="B0029"/>
+        </tur:turno>
+        <tur:turno id="772">
+            <tur:data>2024-04-25</tur:data>
+            <tur:ora_inizio>07:34:35</tur:ora_inizio>
+            <tur:ora_fine>15:34:35</tur:ora_fine>
+            <tur:autista codice="A009"/>
+            <tur:linea codice="L0011"/>
+            <tur:autobus codice="B0044"/>
+        </tur:turno>
+        <tur:turno id="773">
+            <tur:data>2024-04-27</tur:data>
+            <tur:ora_inizio>08:07:49</tur:ora_inizio>
+            <tur:ora_fine>15:37:49</tur:ora_fine>
+            <tur:autista codice="A005"/>
+            <tur:linea codice="L006"/>
+            <tur:autobus codice="B0035"/>
+        </tur:turno>
+        <tur:turno id="774">
+            <tur:data>2024-04-27</tur:data>
+            <tur:ora_inizio>11:10:37</tur:ora_inizio>
+            <tur:ora_fine>13:40:37</tur:ora_fine>
+            <tur:autista codice="A003"/>
+            <tur:linea codice="L0012"/>
+            <tur:autobus codice="B0046"/>
+        </tur:turno>
+        <tur:turno id="775">
+            <tur:data>2024-04-27</tur:data>
+            <tur:ora_inizio>10:01:52</tur:ora_inizio>
+            <tur:ora_fine>15:01:52</tur:ora_fine>
+            <tur:autista codice="A004"/>
+            <tur:linea codice="L007"/>
+            <tur:autobus codice="B0031"/>
+        </tur:turno>
+        <tur:turno id="776">
+            <tur:data>2024-04-28</tur:data>
+            <tur:ora_inizio>08:37:53</tur:ora_inizio>
+            <tur:ora_fine>13:07:53</tur:ora_fine>
+            <tur:autista codice="A009"/>
+            <tur:linea codice="L009"/>
+            <tur:autobus codice="B0033"/>
+        </tur:turno>
+        <tur:turno id="777">
+            <tur:data>2024-04-28</tur:data>
+            <tur:ora_inizio>09:42:31</tur:ora_inizio>
+            <tur:ora_fine>17:42:31</tur:ora_fine>
+            <tur:autista codice="A004"/>
+            <tur:linea codice="L007"/>
+            <tur:autobus codice="B0047"/>
+        </tur:turno>
+        <tur:turno id="778">
+            <tur:data>2024-04-28</tur:data>
+            <tur:ora_inizio>08:45:16</tur:ora_inizio>
+            <tur:ora_fine>16:15:16</tur:ora_fine>
+            <tur:autista codice="A003"/>
+            <tur:linea codice="L001"/>
+            <tur:autobus codice="B0029"/>
+        </tur:turno>
+        <tur:turno id="779">
+            <tur:data>2024-04-28</tur:data>
+            <tur:ora_inizio>13:34:06</tur:ora_inizio>
+            <tur:ora_fine>16:34:06</tur:ora_fine>
+            <tur:autista codice="A008"/>
+            <tur:linea codice="L0010"/>
+            <tur:autobus codice="B0047"/>
+        </tur:turno>
+        <tur:turno id="780">
+            <tur:data>2024-05-03</tur:data>
+            <tur:ora_inizio>07:11:40</tur:ora_inizio>
+            <tur:ora_fine>09:11:40</tur:ora_fine>
+            <tur:autista codice="A006"/>
+            <tur:linea codice="L004"/>
+            <tur:autobus codice="B0042"/>
+        </tur:turno>
+        <tur:turno id="781">
+            <tur:data>2024-05-03</tur:data>
+            <tur:ora_inizio>12:52:35</tur:ora_inizio>
+            <tur:ora_fine>15:22:35</tur:ora_fine>
+            <tur:autista codice="A008"/>
+            <tur:linea codice="L009"/>
+            <tur:autobus codice="B0044"/>
+        </tur:turno>
+        <tur:turno id="782">
+            <tur:data>2024-05-03</tur:data>
+            <tur:ora_inizio>11:17:44</tur:ora_inizio>
+            <tur:ora_fine>18:17:44</tur:ora_fine>
+            <tur:autista codice="A002"/>
+            <tur:linea codice="L0012"/>
+            <tur:autobus codice="B0035"/>
+        </tur:turno>
+        <tur:turno id="783">
+            <tur:data>2024-05-03</tur:data>
+            <tur:ora_inizio>08:45:16</tur:ora_inizio>
+            <tur:ora_fine>13:15:16</tur:ora_fine>
+            <tur:autista codice="A007"/>
+            <tur:linea codice="L004"/>
+            <tur:autobus codice="B0048"/>
+        </tur:turno>
+        <tur:turno id="784">
+            <tur:data>2024-05-03</tur:data>
+            <tur:ora_inizio>07:59:32</tur:ora_inizio>
+            <tur:ora_fine>10:59:32</tur:ora_fine>
+            <tur:autista codice="A0010"/>
+            <tur:linea codice="L002"/>
+            <tur:autobus codice="B0035"/>
+        </tur:turno>
+        <tur:turno id="785">
+            <tur:data>2024-05-03</tur:data>
+            <tur:ora_inizio>10:06:21</tur:ora_inizio>
+            <tur:ora_fine>18:06:21</tur:ora_fine>
+            <tur:autista codice="A006"/>
+            <tur:linea codice="L007"/>
+            <tur:autobus codice="B0042"/>
+        </tur:turno>
+        <tur:turno id="786">
+            <tur:data>2024-05-04</tur:data>
+            <tur:ora_inizio>11:39:07</tur:ora_inizio>
+            <tur:ora_fine>16:39:07</tur:ora_fine>
+            <tur:autista codice="A006"/>
+            <tur:linea codice="L0015"/>
+            <tur:autobus codice="B0034"/>
+        </tur:turno>
+        <tur:turno id="787">
+            <tur:data>2024-05-04</tur:data>
+            <tur:ora_inizio>11:17:44</tur:ora_inizio>
+            <tur:ora_fine>18:17:44</tur:ora_fine>
+            <tur:autista codice="A007"/>
+            <tur:linea codice="L006"/>
+            <tur:autobus codice="B0027"/>
+        </tur:turno>
+        <tur:turno id="788">
+            <tur:data>2024-05-04</tur:data>
+            <tur:ora_inizio>06:48:11</tur:ora_inizio>
+            <tur:ora_fine>12:18:11</tur:ora_fine>
+            <tur:autista codice="A003"/>
+            <tur:linea codice="L0015"/>
+            <tur:autobus codice="B0040"/>
+        </tur:turno>
+        <tur:turno id="789">
+            <tur:data>2024-05-04</tur:data>
+            <tur:ora_inizio>06:32:03</tur:ora_inizio>
+            <tur:ora_fine>09:02:03</tur:ora_fine>
+            <tur:autista codice="A009"/>
+            <tur:linea codice="L0013"/>
+            <tur:autobus codice="B0029"/>
+        </tur:turno>
+        <tur:turno id="790">
+            <tur:data>2024-05-04</tur:data>
+            <tur:ora_inizio>10:40:15</tur:ora_inizio>
+            <tur:ora_fine>18:40:15</tur:ora_fine>
+            <tur:autista codice="A0010"/>
+            <tur:linea codice="L0011"/>
+            <tur:autobus codice="B0029"/>
+        </tur:turno>
+        <tur:turno id="791">
+            <tur:data>2024-05-04</tur:data>
+            <tur:ora_inizio>11:37:20</tur:ora_inizio>
+            <tur:ora_fine>16:07:20</tur:ora_fine>
+            <tur:autista codice="A002"/>
+            <tur:linea codice="L0010"/>
+            <tur:autobus codice="B0047"/>
+        </tur:turno>
+        <tur:turno id="792">
+            <tur:data>2024-05-04</tur:data>
+            <tur:ora_inizio>05:36:54</tur:ora_inizio>
+            <tur:ora_fine>11:06:54</tur:ora_fine>
+            <tur:autista codice="A006"/>
+            <tur:linea codice="L0013"/>
+            <tur:autobus codice="B0029"/>
+        </tur:turno>
+        <tur:turno id="793">
+            <tur:data>2024-05-04</tur:data>
+            <tur:ora_inizio>07:55:10</tur:ora_inizio>
+            <tur:ora_fine>09:55:10</tur:ora_fine>
+            <tur:autista codice="A008"/>
+            <tur:linea codice="L005"/>
+            <tur:autobus codice="B0040"/>
+        </tur:turno>
+        <tur:turno id="794">
+            <tur:data>2024-05-04</tur:data>
+            <tur:ora_inizio>06:32:05</tur:ora_inizio>
+            <tur:ora_fine>13:32:05</tur:ora_fine>
+            <tur:autista codice="A005"/>
+            <tur:linea codice="L003"/>
+            <tur:autobus codice="B0032"/>
+        </tur:turno>
+        <tur:turno id="795">
+            <tur:data>2024-05-04</tur:data>
+            <tur:ora_inizio>09:16:31</tur:ora_inizio>
+            <tur:ora_fine>17:16:31</tur:ora_fine>
+            <tur:autista codice="A009"/>
+            <tur:linea codice="L005"/>
+            <tur:autobus codice="B0037"/>
+        </tur:turno>
+        <tur:turno id="796">
+            <tur:data>2024-05-05</tur:data>
+            <tur:ora_inizio>13:52:36</tur:ora_inizio>
+            <tur:ora_fine>17:52:36</tur:ora_fine>
+            <tur:autista codice="A003"/>
+            <tur:linea codice="L0015"/>
+            <tur:autobus codice="B0032"/>
+        </tur:turno>
+        <tur:turno id="797">
+            <tur:data>2024-05-05</tur:data>
+            <tur:ora_inizio>09:12:48</tur:ora_inizio>
+            <tur:ora_fine>16:12:48</tur:ora_fine>
+            <tur:autista codice="A009"/>
+            <tur:linea codice="L004"/>
+            <tur:autobus codice="B0047"/>
+        </tur:turno>
+        <tur:turno id="798">
+            <tur:data>2024-05-05</tur:data>
+            <tur:ora_inizio>10:06:19</tur:ora_inizio>
+            <tur:ora_fine>13:06:19</tur:ora_fine>
+            <tur:autista codice="A007"/>
+            <tur:linea codice="L003"/>
+            <tur:autobus codice="B0038"/>
+        </tur:turno>
+        <tur:turno id="799">
+            <tur:data>2024-05-05</tur:data>
+            <tur:ora_inizio>11:17:49</tur:ora_inizio>
+            <tur:ora_fine>18:47:49</tur:ora_fine>
+            <tur:autista codice="A002"/>
+            <tur:linea codice="L005"/>
+            <tur:autobus codice="B0031"/>
+        </tur:turno>
+        <tur:turno id="800">
+            <tur:data>2024-05-05</tur:data>
+            <tur:ora_inizio>05:36:15</tur:ora_inizio>
+            <tur:ora_fine>12:06:15</tur:ora_fine>
+            <tur:autista codice="A004"/>
+            <tur:linea codice="L0014"/>
+            <tur:autobus codice="B0034"/>
+        </tur:turno>
+        <tur:turno id="801">
+            <tur:data>2024-05-05</tur:data>
+            <tur:ora_inizio>10:22:00</tur:ora_inizio>
+            <tur:ora_fine>15:52:00</tur:ora_fine>
+            <tur:autista codice="A0010"/>
+            <tur:linea codice="L0010"/>
+            <tur:autobus codice="B0045"/>
+        </tur:turno>
+        <tur:turno id="802">
+            <tur:data>2024-05-05</tur:data>
+            <tur:ora_inizio>12:18:17</tur:ora_inizio>
+            <tur:ora_fine>16:48:17</tur:ora_fine>
+            <tur:autista codice="A006"/>
+            <tur:linea codice="L003"/>
+            <tur:autobus codice="B0030"/>
+        </tur:turno>
+        <tur:turno id="803">
+            <tur:data>2024-05-07</tur:data>
+            <tur:ora_inizio>10:39:41</tur:ora_inizio>
+            <tur:ora_fine>15:39:41</tur:ora_fine>
+            <tur:autista codice="A002"/>
+            <tur:linea codice="L008"/>
+            <tur:autobus codice="B0048"/>
+        </tur:turno>
+        <tur:turno id="804">
+            <tur:data>2024-05-07</tur:data>
+            <tur:ora_inizio>12:01:56</tur:ora_inizio>
+            <tur:ora_fine>19:31:56</tur:ora_fine>
+            <tur:autista codice="A008"/>
+            <tur:linea codice="L009"/>
+            <tur:autobus codice="B0041"/>
+        </tur:turno>
+        <tur:turno id="805">
+            <tur:data>2024-05-07</tur:data>
+            <tur:ora_inizio>05:03:33</tur:ora_inizio>
+            <tur:ora_fine>08:33:33</tur:ora_fine>
+            <tur:autista codice="A008"/>
+            <tur:linea codice="L003"/>
+            <tur:autobus codice="B0026"/>
+        </tur:turno>
+        <tur:turno id="806">
+            <tur:data>2024-05-07</tur:data>
+            <tur:ora_inizio>09:19:38</tur:ora_inizio>
+            <tur:ora_fine>15:49:38</tur:ora_fine>
+            <tur:autista codice="A007"/>
+            <tur:linea codice="L006"/>
+            <tur:autobus codice="B0037"/>
+        </tur:turno>
+        <tur:turno id="807">
+            <tur:data>2024-05-08</tur:data>
+            <tur:ora_inizio>10:22:55</tur:ora_inizio>
+            <tur:ora_fine>12:52:55</tur:ora_fine>
+            <tur:autista codice="A006"/>
+            <tur:linea codice="L0013"/>
+            <tur:autobus codice="B0037"/>
+        </tur:turno>
+        <tur:turno id="808">
+            <tur:data>2024-05-09</tur:data>
+            <tur:ora_inizio>09:40:47</tur:ora_inizio>
+            <tur:ora_fine>14:40:47</tur:ora_fine>
+            <tur:autista codice="A007"/>
+            <tur:linea codice="L009"/>
+            <tur:autobus codice="B0037"/>
+        </tur:turno>
+        <tur:turno id="809">
+            <tur:data>2024-05-09</tur:data>
+            <tur:ora_inizio>11:27:40</tur:ora_inizio>
+            <tur:ora_fine>16:27:40</tur:ora_fine>
+            <tur:autista codice="A009"/>
+            <tur:linea codice="L006"/>
+            <tur:autobus codice="B0037"/>
+        </tur:turno>
+        <tur:turno id="810">
+            <tur:data>2024-05-09</tur:data>
+            <tur:ora_inizio>07:34:35</tur:ora_inizio>
+            <tur:ora_fine>12:34:35</tur:ora_fine>
+            <tur:autista codice="A004"/>
+            <tur:linea codice="L0013"/>
+            <tur:autobus codice="B0036"/>
+        </tur:turno>
+        <tur:turno id="811">
+            <tur:data>2024-05-09</tur:data>
+            <tur:ora_inizio>08:07:49</tur:ora_inizio>
+            <tur:ora_fine>12:37:49</tur:ora_fine>
+            <tur:autista codice="A005"/>
+            <tur:linea codice="L002"/>
+            <tur:autobus codice="B0044"/>
+        </tur:turno>
+        <tur:turno id="812">
+            <tur:data>2024-05-12</tur:data>
+            <tur:ora_inizio>11:43:17</tur:ora_inizio>
+            <tur:ora_fine>15:43:17</tur:ora_fine>
+            <tur:autista codice="A005"/>
+            <tur:linea codice="L003"/>
+            <tur:autobus codice="B0038"/>
+        </tur:turno>
+        <tur:turno id="813">
+            <tur:data>2024-05-12</tur:data>
+            <tur:ora_inizio>05:34:04</tur:ora_inizio>
+            <tur:ora_fine>10:04:04</tur:ora_fine>
+            <tur:autista codice="A007"/>
+            <tur:linea codice="L003"/>
+            <tur:autobus codice="B0037"/>
+        </tur:turno>
+        <tur:turno id="814">
+            <tur:data>2024-05-12</tur:data>
+            <tur:ora_inizio>10:01:52</tur:ora_inizio>
+            <tur:ora_fine>15:01:52</tur:ora_fine>
+            <tur:autista codice="A003"/>
+            <tur:linea codice="L005"/>
+            <tur:autobus codice="B0034"/>
+        </tur:turno>
+        <tur:turno id="815">
+            <tur:data>2024-05-12</tur:data>
+            <tur:ora_inizio>06:04:01</tur:ora_inizio>
+            <tur:ora_fine>09:04:01</tur:ora_fine>
+            <tur:autista codice="A006"/>
+            <tur:linea codice="L0013"/>
+            <tur:autobus codice="B0030"/>
+        </tur:turno>
+        <tur:turno id="816">
+            <tur:data>2024-05-12</tur:data>
+            <tur:ora_inizio>05:34:04</tur:ora_inizio>
+            <tur:ora_fine>12:34:04</tur:ora_fine>
+            <tur:autista codice="A009"/>
+            <tur:linea codice="L005"/>
+            <tur:autobus codice="B0034"/>
+        </tur:turno>
+        <tur:turno id="817">
+            <tur:data>2024-05-14</tur:data>
+            <tur:ora_inizio>12:41:02</tur:ora_inizio>
+            <tur:ora_fine>15:11:02</tur:ora_fine>
+            <tur:autista codice="A0010"/>
+            <tur:linea codice="L0012"/>
+            <tur:autobus codice="B0038"/>
+        </tur:turno>
+        <tur:turno id="818">
+            <tur:data>2024-05-14</tur:data>
+            <tur:ora_inizio>07:11:40</tur:ora_inizio>
+            <tur:ora_fine>14:11:40</tur:ora_fine>
+            <tur:autista codice="A002"/>
+            <tur:linea codice="L006"/>
+            <tur:autobus codice="B0031"/>
+        </tur:turno>
+        <tur:turno id="819">
+            <tur:data>2024-05-14</tur:data>
+            <tur:ora_inizio>06:28:53</tur:ora_inizio>
+            <tur:ora_fine>09:28:53</tur:ora_fine>
+            <tur:autista codice="A007"/>
+            <tur:linea codice="L005"/>
+            <tur:autobus codice="B0036"/>
+        </tur:turno>
+        <tur:turno id="820">
+            <tur:data>2024-05-15</tur:data>
+            <tur:ora_inizio>11:44:07</tur:ora_inizio>
+            <tur:ora_fine>18:14:07</tur:ora_fine>
+            <tur:autista codice="A002"/>
+            <tur:linea codice="L0011"/>
+            <tur:autobus codice="B0043"/>
+        </tur:turno>
+        <tur:turno id="821">
+            <tur:data>2024-05-15</tur:data>
+            <tur:ora_inizio>11:37:20</tur:ora_inizio>
+            <tur:ora_fine>18:07:20</tur:ora_fine>
+            <tur:autista codice="A007"/>
+            <tur:linea codice="L0012"/>
+            <tur:autobus codice="B0044"/>
+        </tur:turno>
+        <tur:turno id="822">
+            <tur:data>2024-05-15</tur:data>
+            <tur:ora_inizio>07:03:13</tur:ora_inizio>
+            <tur:ora_fine>12:33:13</tur:ora_fine>
+            <tur:autista codice="A005"/>
+            <tur:linea codice="L004"/>
+            <tur:autobus codice="B0028"/>
+        </tur:turno>
+        <tur:turno id="823">
+            <tur:data>2024-05-15</tur:data>
+            <tur:ora_inizio>06:32:03</tur:ora_inizio>
+            <tur:ora_fine>14:32:03</tur:ora_fine>
+            <tur:autista codice="A0010"/>
+            <tur:linea codice="L009"/>
+            <tur:autobus codice="B0045"/>
+        </tur:turno>
+        <tur:turno id="824">
+            <tur:data>2024-05-15</tur:data>
+            <tur:ora_inizio>10:30:39</tur:ora_inizio>
+            <tur:ora_fine>18:00:39</tur:ora_fine>
+            <tur:autista codice="A004"/>
+            <tur:linea codice="L008"/>
+            <tur:autobus codice="B0026"/>
+        </tur:turno>
+        <tur:turno id="825">
+            <tur:data>2024-05-17</tur:data>
+            <tur:ora_inizio>12:18:17</tur:ora_inizio>
+            <tur:ora_fine>15:18:17</tur:ora_fine>
+            <tur:autista codice="A008"/>
+            <tur:linea codice="L004"/>
+            <tur:autobus codice="B0046"/>
+        </tur:turno>
+        <tur:turno id="826">
+            <tur:data>2024-05-17</tur:data>
+            <tur:ora_inizio>05:39:31</tur:ora_inizio>
+            <tur:ora_fine>11:39:31</tur:ora_fine>
+            <tur:autista codice="A002"/>
+            <tur:linea codice="L002"/>
+            <tur:autobus codice="B0047"/>
+        </tur:turno>
+        <tur:turno id="827">
+            <tur:data>2024-05-17</tur:data>
+            <tur:ora_inizio>08:18:32</tur:ora_inizio>
+            <tur:ora_fine>15:18:32</tur:ora_fine>
+            <tur:autista codice="A003"/>
+            <tur:linea codice="L008"/>
+            <tur:autobus codice="B0036"/>
+        </tur:turno>
+        <tur:turno id="828">
+            <tur:data>2024-05-17</tur:data>
+            <tur:ora_inizio>12:01:56</tur:ora_inizio>
+            <tur:ora_fine>15:31:56</tur:ora_fine>
+            <tur:autista codice="A0010"/>
+            <tur:linea codice="L0015"/>
+            <tur:autobus codice="B0027"/>
+        </tur:turno>
+        <tur:turno id="829">
+            <tur:data>2024-05-17</tur:data>
+            <tur:ora_inizio>13:02:23</tur:ora_inizio>
+            <tur:ora_fine>20:32:23</tur:ora_fine>
+            <tur:autista codice="A006"/>
+            <tur:linea codice="L0010"/>
+            <tur:autobus codice="B0036"/>
+        </tur:turno>
+        <tur:turno id="830">
+            <tur:data>2024-05-19</tur:data>
+            <tur:ora_inizio>10:57:43</tur:ora_inizio>
+            <tur:ora_fine>15:57:43</tur:ora_fine>
+            <tur:autista codice="A006"/>
+            <tur:linea codice="L007"/>
+            <tur:autobus codice="B0048"/>
+        </tur:turno>
+        <tur:turno id="831">
+            <tur:data>2024-05-19</tur:data>
+            <tur:ora_inizio>11:37:20</tur:ora_inizio>
+            <tur:ora_fine>16:37:20</tur:ora_fine>
+            <tur:autista codice="A008"/>
+            <tur:linea codice="L0014"/>
+            <tur:autobus codice="B0031"/>
+        </tur:turno>
+        <tur:turno id="832">
+            <tur:data>2024-05-24</tur:data>
+            <tur:ora_inizio>12:52:35</tur:ora_inizio>
+            <tur:ora_fine>15:52:35</tur:ora_fine>
+            <tur:autista codice="A002"/>
+            <tur:linea codice="L0014"/>
+            <tur:autobus codice="B0042"/>
+        </tur:turno>
+        <tur:turno id="833">
+            <tur:data>2024-05-24</tur:data>
+            <tur:ora_inizio>07:11:40</tur:ora_inizio>
+            <tur:ora_fine>09:11:40</tur:ora_fine>
+            <tur:autista codice="A0010"/>
+            <tur:linea codice="L0013"/>
+            <tur:autobus codice="B0034"/>
+        </tur:turno>
+        <tur:turno id="834">
+            <tur:data>2024-05-25</tur:data>
+            <tur:ora_inizio>06:48:11</tur:ora_inizio>
+            <tur:ora_fine>11:18:11</tur:ora_fine>
+            <tur:autista codice="A0010"/>
+            <tur:linea codice="L001"/>
+            <tur:autobus codice="B0029"/>
+        </tur:turno>
+        <tur:turno id="835">
+            <tur:data>2024-05-25</tur:data>
+            <tur:ora_inizio>06:32:03</tur:ora_inizio>
+            <tur:ora_fine>13:32:03</tur:ora_fine>
+            <tur:autista codice="A008"/>
+            <tur:linea codice="L0014"/>
+            <tur:autobus codice="B0025"/>
+        </tur:turno>
+        <tur:turno id="836">
+            <tur:data>2024-05-25</tur:data>
+            <tur:ora_inizio>09:54:32</tur:ora_inizio>
+            <tur:ora_fine>13:24:32</tur:ora_fine>
+            <tur:autista codice="A005"/>
+            <tur:linea codice="L003"/>
+            <tur:autobus codice="B0036"/>
+        </tur:turno>
+        <tur:turno id="837">
+            <tur:data>2024-05-25</tur:data>
+            <tur:ora_inizio>07:55:10</tur:ora_inizio>
+            <tur:ora_fine>10:25:10</tur:ora_fine>
+            <tur:autista codice="A003"/>
+            <tur:linea codice="L0015"/>
+            <tur:autobus codice="B0048"/>
+        </tur:turno>
+        <tur:turno id="838">
+            <tur:data>2024-05-26</tur:data>
+            <tur:ora_inizio>07:46:11</tur:ora_inizio>
+            <tur:ora_fine>13:16:11</tur:ora_fine>
+            <tur:autista codice="A008"/>
+            <tur:linea codice="L0014"/>
+            <tur:autobus codice="B0030"/>
+        </tur:turno>
+        <tur:turno id="839">
+            <tur:data>2024-05-26</tur:data>
+            <tur:ora_inizio>09:12:22</tur:ora_inizio>
+            <tur:ora_fine>17:12:22</tur:ora_fine>
+            <tur:autista codice="A005"/>
+            <tur:linea codice="L008"/>
+            <tur:autobus codice="B0047"/>
+        </tur:turno>
+        <tur:turno id="840">
+            <tur:data>2024-05-26</tur:data>
+            <tur:ora_inizio>06:48:11</tur:ora_inizio>
+            <tur:ora_fine>13:18:11</tur:ora_fine>
+            <tur:autista codice="A0010"/>
+            <tur:linea codice="L0011"/>
+            <tur:autobus codice="B0047"/>
+        </tur:turno>
+        <tur:turno id="841">
+            <tur:data>2024-05-29</tur:data>
+            <tur:ora_inizio>10:06:21</tur:ora_inizio>
+            <tur:ora_fine>13:06:21</tur:ora_fine>
+            <tur:autista codice="A006"/>
+            <tur:linea codice="L009"/>
+            <tur:autobus codice="B0030"/>
+        </tur:turno>
+        <tur:turno id="842">
+            <tur:data>2024-05-29</tur:data>
+            <tur:ora_inizio>10:44:35</tur:ora_inizio>
+            <tur:ora_fine>17:44:35</tur:ora_fine>
+            <tur:autista codice="A005"/>
+            <tur:linea codice="L005"/>
+            <tur:autobus codice="B0043"/>
+        </tur:turno>
+        <tur:turno id="843">
+            <tur:data>2024-06-01</tur:data>
+            <tur:ora_inizio>09:31:02</tur:ora_inizio>
+            <tur:ora_fine>12:01:02</tur:ora_fine>
+            <tur:autista codice="A006"/>
+            <tur:linea codice="L0013"/>
+            <tur:autobus codice="B0028"/>
+        </tur:turno>
+        <tur:turno id="844">
+            <tur:data>2024-06-03</tur:data>
+            <tur:ora_inizio>13:44:42</tur:ora_inizio>
+            <tur:ora_fine>20:14:42</tur:ora_fine>
+            <tur:autista codice="A0010"/>
+            <tur:linea codice="L0013"/>
+            <tur:autobus codice="B0028"/>
+        </tur:turno>
+        <tur:turno id="845">
+            <tur:data>2024-06-03</tur:data>
+            <tur:ora_inizio>06:28:53</tur:ora_inizio>
+            <tur:ora_fine>13:28:53</tur:ora_fine>
+            <tur:autista codice="A003"/>
+            <tur:linea codice="L005"/>
+            <tur:autobus codice="B0038"/>
+        </tur:turno>
+        <tur:turno id="846">
+            <tur:data>2024-06-03</tur:data>
+            <tur:ora_inizio>09:03:54</tur:ora_inizio>
+            <tur:ora_fine>12:33:54</tur:ora_fine>
+            <tur:autista codice="A008"/>
+            <tur:linea codice="L0012"/>
+            <tur:autobus codice="B0047"/>
+        </tur:turno>
+        <tur:turno id="847">
+            <tur:data>2024-06-03</tur:data>
+            <tur:ora_inizio>10:14:22</tur:ora_inizio>
+            <tur:ora_fine>16:14:22</tur:ora_fine>
+            <tur:autista codice="A005"/>
+            <tur:linea codice="L006"/>
+            <tur:autobus codice="B0047"/>
+        </tur:turno>
+        <tur:turno id="848">
+            <tur:data>2024-06-03</tur:data>
+            <tur:ora_inizio>06:11:24</tur:ora_inizio>
+            <tur:ora_fine>09:41:24</tur:ora_fine>
+            <tur:autista codice="A004"/>
+            <tur:linea codice="L005"/>
+            <tur:autobus codice="B0035"/>
+        </tur:turno>
+        <tur:turno id="849">
+            <tur:data>2024-06-03</tur:data>
+            <tur:ora_inizio>06:32:05</tur:ora_inizio>
+            <tur:ora_fine>09:02:05</tur:ora_fine>
+            <tur:autista codice="A0010"/>
+            <tur:linea codice="L0013"/>
+            <tur:autobus codice="B0037"/>
+        </tur:turno>
+        <tur:turno id="850">
+            <tur:data>2024-06-04</tur:data>
+            <tur:ora_inizio>13:32:39</tur:ora_inizio>
+            <tur:ora_fine>18:32:39</tur:ora_fine>
+            <tur:autista codice="A002"/>
+            <tur:linea codice="L0013"/>
+            <tur:autobus codice="B0031"/>
+        </tur:turno>
+        <tur:turno id="851">
+            <tur:data>2024-06-04</tur:data>
+            <tur:ora_inizio>05:51:50</tur:ora_inizio>
+            <tur:ora_fine>11:21:50</tur:ora_fine>
+            <tur:autista codice="A004"/>
+            <tur:linea codice="L003"/>
+            <tur:autobus codice="B0031"/>
+        </tur:turno>
+        <tur:turno id="852">
+            <tur:data>2024-06-04</tur:data>
+            <tur:ora_inizio>05:34:04</tur:ora_inizio>
+            <tur:ora_fine>08:34:04</tur:ora_fine>
+            <tur:autista codice="A007"/>
+            <tur:linea codice="L009"/>
+            <tur:autobus codice="B0038"/>
+        </tur:turno>
+        <tur:turno id="853">
+            <tur:data>2024-06-05</tur:data>
+            <tur:ora_inizio>10:57:43</tur:ora_inizio>
+            <tur:ora_fine>16:57:43</tur:ora_fine>
+            <tur:autista codice="A007"/>
+            <tur:linea codice="L001"/>
+            <tur:autobus codice="B0039"/>
+        </tur:turno>
+        <tur:turno id="854">
+            <tur:data>2024-06-05</tur:data>
+            <tur:ora_inizio>07:51:14</tur:ora_inizio>
+            <tur:ora_fine>13:21:14</tur:ora_fine>
+            <tur:autista codice="A003"/>
+            <tur:linea codice="L0015"/>
+            <tur:autobus codice="B0048"/>
+        </tur:turno>
+        <tur:turno id="855">
+            <tur:data>2024-06-05</tur:data>
+            <tur:ora_inizio>05:03:33</tur:ora_inizio>
+            <tur:ora_fine>12:03:33</tur:ora_fine>
+            <tur:autista codice="A006"/>
+            <tur:linea codice="L009"/>
+            <tur:autobus codice="B0039"/>
+        </tur:turno>
+        <tur:turno id="856">
+            <tur:data>2024-06-05</tur:data>
+            <tur:ora_inizio>11:43:17</tur:ora_inizio>
+            <tur:ora_fine>13:43:17</tur:ora_fine>
+            <tur:autista codice="A004"/>
+            <tur:linea codice="L0011"/>
+            <tur:autobus codice="B0032"/>
+        </tur:turno>
+        <tur:turno id="857">
+            <tur:data>2024-06-05</tur:data>
+            <tur:ora_inizio>09:54:32</tur:ora_inizio>
+            <tur:ora_fine>17:54:32</tur:ora_fine>
+            <tur:autista codice="A002"/>
+            <tur:linea codice="L002"/>
+            <tur:autobus codice="B0048"/>
+        </tur:turno>
+        <tur:turno id="858">
+            <tur:data>2024-06-05</tur:data>
+            <tur:ora_inizio>07:34:35</tur:ora_inizio>
+            <tur:ora_fine>15:04:35</tur:ora_fine>
+            <tur:autista codice="A0010"/>
+            <tur:linea codice="L003"/>
+            <tur:autobus codice="B0026"/>
+        </tur:turno>
+        <tur:turno id="859">
+            <tur:data>2024-06-05</tur:data>
+            <tur:ora_inizio>12:41:02</tur:ora_inizio>
+            <tur:ora_fine>16:41:02</tur:ora_fine>
+            <tur:autista codice="A005"/>
+            <tur:linea codice="L0011"/>
+            <tur:autobus codice="B0043"/>
+        </tur:turno>
+        <tur:turno id="860">
+            <tur:data>2024-06-05</tur:data>
+            <tur:ora_inizio>12:51:56</tur:ora_inizio>
+            <tur:ora_fine>16:21:56</tur:ora_fine>
+            <tur:autista codice="A008"/>
+            <tur:linea codice="L005"/>
+            <tur:autobus codice="B0038"/>
+        </tur:turno>
+        <tur:turno id="861">
+            <tur:data>2024-06-12</tur:data>
+            <tur:ora_inizio>13:58:45</tur:ora_inizio>
+            <tur:ora_fine>20:58:45</tur:ora_fine>
+            <tur:autista codice="A002"/>
+            <tur:linea codice="L006"/>
+            <tur:autobus codice="B0031"/>
+        </tur:turno>
+        <tur:turno id="862">
+            <tur:data>2024-06-12</tur:data>
+            <tur:ora_inizio>07:51:14</tur:ora_inizio>
+            <tur:ora_fine>13:21:14</tur:ora_fine>
+            <tur:autista codice="A002"/>
+            <tur:linea codice="L0010"/>
+            <tur:autobus codice="B0028"/>
+        </tur:turno>
+        <tur:turno id="863">
+            <tur:data>2024-06-12</tur:data>
+            <tur:ora_inizio>06:48:11</tur:ora_inizio>
+            <tur:ora_fine>14:18:11</tur:ora_fine>
+            <tur:autista codice="A0010"/>
+            <tur:linea codice="L002"/>
+            <tur:autobus codice="B0033"/>
+        </tur:turno>
+        <tur:turno id="864">
+            <tur:data>2024-06-12</tur:data>
+            <tur:ora_inizio>11:20:44</tur:ora_inizio>
+            <tur:ora_fine>17:20:44</tur:ora_fine>
+            <tur:autista codice="A009"/>
+            <tur:linea codice="L005"/>
+            <tur:autobus codice="B0040"/>
+        </tur:turno>
+        <tur:turno id="865">
+            <tur:data>2024-06-10</tur:data>
+            <tur:ora_inizio>09:30:00</tur:ora_inizio>
+            <tur:ora_fine>14:30:00</tur:ora_fine>
+            <tur:autista codice="A0012"/>
+            <tur:linea codice="L004"/>
+            <tur:autobus codice="B0045"/>
+        </tur:turno>
+        <tur:turno id="866">
+            <tur:data>2024-06-11</tur:data>
+            <tur:ora_inizio>08:30:00</tur:ora_inizio>
+            <tur:ora_fine>15:30:00</tur:ora_fine>
+            <tur:autista codice="A0012"/>
+            <tur:linea codice="L005"/>
+            <tur:autobus codice="B0026"/>
+        </tur:turno>
+        <tur:turno id="867">
+            <tur:data>2024-06-12</tur:data>
+            <tur:ora_inizio>07:25:00</tur:ora_inizio>
+            <tur:ora_fine>14:30:00</tur:ora_fine>
+            <tur:autista codice="A0012"/>
+            <tur:linea codice="L006"/>
+            <tur:autobus codice="B0041"/>
+        </tur:turno>
+        <tur:turno id="868">
+            <tur:data>2024-06-13</tur:data>
+            <tur:ora_inizio>13:30:00</tur:ora_inizio>
+            <tur:ora_fine>21:30:00</tur:ora_fine>
+            <tur:autista codice="A0012"/>
+            <tur:linea codice="L007"/>
+            <tur:autobus codice="B0032"/>
+        </tur:turno>
+        <tur:turno id="869">
+            <tur:data>2024-06-14</tur:data>
+            <tur:ora_inizio>12:30:00</tur:ora_inizio>
+            <tur:ora_fine>19:30:00</tur:ora_fine>
+            <tur:autista codice="A0012"/>
+            <tur:linea codice="L0011"/>
+            <tur:autobus codice="B0035"/>
+        </tur:turno>
+        <tur:turno id="870">
+            <tur:data>2024-06-15</tur:data>
+            <tur:ora_inizio>12:00:00</tur:ora_inizio>
+            <tur:ora_fine>20:30:00</tur:ora_fine>
+            <tur:autista codice="A0012"/>
+            <tur:linea codice="L0012"/>
+            <tur:autobus codice="B0029"/>
+        </tur:turno>
+        <tur:turno id="871">
+            <tur:data>2024-06-16</tur:data>
+            <tur:ora_inizio>11:30:00</tur:ora_inizio>
+            <tur:ora_fine>16:30:00</tur:ora_fine>
+            <tur:autista codice="A0012"/>
+            <tur:linea codice="L001"/>
+            <tur:autobus codice="B0039"/>
+        </tur:turno>
+    </d:turni>
+</d:ditta>

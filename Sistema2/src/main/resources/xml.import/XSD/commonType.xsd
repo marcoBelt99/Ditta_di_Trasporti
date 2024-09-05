@@ -1,0 +1,148 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            targetNamespace="http://www.progetto.com/common"
+            xmlns="http://www.progetto.com/common"
+
+            elementFormDefault="qualified"
+>
+
+    <xsd:simpleType name="CAPType">
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern value="[0-9]{5}"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:simpleType name="CodiceProvinciaType">
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="AG"/>
+            <xsd:enumeration value="AL"/>
+            <xsd:enumeration value="AN"/>
+            <xsd:enumeration value="AO"/>
+            <xsd:enumeration value="AR"/>
+            <xsd:enumeration value="AP"/>
+            <xsd:enumeration value="AT"/>
+            <xsd:enumeration value="AV"/>
+            <xsd:enumeration value="BA"/>
+            <xsd:enumeration value="BT"/>
+            <xsd:enumeration value="BL"/>
+            <xsd:enumeration value="BN"/>
+            <xsd:enumeration value="BG"/>
+            <xsd:enumeration value="BI"/>
+            <xsd:enumeration value="BO"/>
+            <xsd:enumeration value="BZ"/>
+            <xsd:enumeration value="BS"/>
+            <xsd:enumeration value="BR"/>
+            <xsd:enumeration value="CA"/>
+            <xsd:enumeration value="CL"/>
+            <xsd:enumeration value="CB"/>
+            <xsd:enumeration value="CI"/>
+            <xsd:enumeration value="CE"/>
+            <xsd:enumeration value="CT"/>
+            <xsd:enumeration value="CZ"/>
+            <xsd:enumeration value="CH"/>
+            <xsd:enumeration value="CO"/>
+            <xsd:enumeration value="CS"/>
+            <xsd:enumeration value="CR"/>
+            <xsd:enumeration value="KR"/>
+            <xsd:enumeration value="CN"/>
+            <xsd:enumeration value="EN"/>
+            <xsd:enumeration value="FM"/>
+            <xsd:enumeration value="FE"/>
+            <xsd:enumeration value="FI"/>
+            <xsd:enumeration value="FG"/>
+            <xsd:enumeration value="FC"/>
+            <xsd:enumeration value="FR"/>
+            <xsd:enumeration value="GE"/>
+            <xsd:enumeration value="GO"/>
+            <xsd:enumeration value="GR"/>
+            <xsd:enumeration value="IM"/>
+            <xsd:enumeration value="IS"/>
+            <xsd:enumeration value="SP"/>
+            <xsd:enumeration value="AQ"/>
+            <xsd:enumeration value="LT"/>
+            <xsd:enumeration value="LE"/>
+            <xsd:enumeration value="LC"/>
+            <xsd:enumeration value="LI"/>
+            <xsd:enumeration value="LO"/>
+            <xsd:enumeration value="LU"/>
+            <xsd:enumeration value="MC"/>
+            <xsd:enumeration value="MN"/>
+            <xsd:enumeration value="MS"/>
+            <xsd:enumeration value="MT"/>
+            <xsd:enumeration value="ME"/>
+            <xsd:enumeration value="MI"/>
+            <xsd:enumeration value="MO"/>
+            <xsd:enumeration value="MB"/>
+            <xsd:enumeration value="NA"/>
+            <xsd:enumeration value="NO"/>
+            <xsd:enumeration value="NU"/>
+            <xsd:enumeration value="OT"/>
+            <xsd:enumeration value="OR"/>
+            <xsd:enumeration value="PD"/>
+            <xsd:enumeration value="PA"/>
+            <xsd:enumeration value="PR"/>
+            <xsd:enumeration value="PV"/>
+            <xsd:enumeration value="PG"/>
+            <xsd:enumeration value="PS"/>
+            <xsd:enumeration value="PE"/>
+            <xsd:enumeration value="PC"/>
+            <xsd:enumeration value="PI"/>
+            <xsd:enumeration value="PT"/>
+            <xsd:enumeration value="PN"/>
+            <xsd:enumeration value="PZ"/>
+            <xsd:enumeration value="PO"/>
+            <xsd:enumeration value="RG"/>
+            <xsd:enumeration value="RA"/>
+            <xsd:enumeration value="RC"/>
+            <xsd:enumeration value="RE"/>
+            <xsd:enumeration value="RI"/>
+            <xsd:enumeration value="RN"/>
+            <xsd:enumeration value="RM"/>
+            <xsd:enumeration value="RO"/>
+            <xsd:enumeration value="SA"/>
+            <xsd:enumeration value="VS"/>
+            <xsd:enumeration value="SS"/>
+            <xsd:enumeration value="SV"/>
+            <xsd:enumeration value="SI"/>
+            <xsd:enumeration value="SR"/>
+            <xsd:enumeration value="SO"/>
+            <xsd:enumeration value="TA"/>
+            <xsd:enumeration value="TE"/>
+            <xsd:enumeration value="TR"/>
+            <xsd:enumeration value="TO"/>
+            <xsd:enumeration value="TP"/>
+            <xsd:enumeration value="TN"/>
+            <xsd:enumeration value="TV"/>
+            <xsd:enumeration value="TS"/>
+            <xsd:enumeration value="UD"/>
+            <xsd:enumeration value="VA"/>
+            <xsd:enumeration value="VE"/>
+            <xsd:enumeration value="VB"/>
+            <xsd:enumeration value="VC"/>
+            <xsd:enumeration value="VR"/>
+            <xsd:enumeration value="VV"/>
+            <xsd:enumeration value="VI"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:element name="persona" type="PersonaType"/>
+
+    <!-- TODO: complexType
+        si usa per definire la struttura di elementi XML che contengono altri elementi o attributi
+     -->
+    <xsd:complexType name="PersonaType">
+        <xsd:sequence>
+            <xsd:element name="nome" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="cognome" type="xsd:string"/>
+            <xsd:element name="telefono" type="TelefonoType"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <!-- TODO: uso di un simpleType
+        si usa per definire vincoli su singoli valori atomici senza figli o attributi.
+     -->
+    <xsd:simpleType name="TelefonoType">
+        <xsd:restriction base="xsd:integer">
+            <xsd:pattern value="[0-9]{10}"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+</xsd:schema>

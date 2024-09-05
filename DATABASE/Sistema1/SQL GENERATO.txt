@@ -1,0 +1,159 @@
+##################################### CREAZIONE DATABASE ###########################################
+-- Database: ditta_trasporti
+
+-- DROP DATABASE IF EXISTS ditta_trasporti;
+
+CREATE DATABASE ditta_trasporti
+    WITH
+    OWNER = postgres
+    ENCODING = 'UTF8'
+    LC_COLLATE = 'Italian_Italy.1252'
+    LC_CTYPE = 'Italian_Italy.1252'
+    TABLESPACE = pg_default
+    CONNECTION LIMIT = -1;
+
+COMMENT ON DATABASE ditta_trasporti
+    IS 'Database progetto ditta di trasporti';
+
+##################################### CREAZIONE TABELLE #############################################
+
+-- Table: public.Linee
+
+-- DROP TABLE IF EXISTS public."Linee";
+
+CREATE TABLE IF NOT EXISTS public."Linee"
+(
+    "NumLinea" character varying(2) COLLATE pg_catalog."default" NOT NULL,
+    "Destinazione" character varying(20)[] COLLATE pg_catalog."default" NOT NULL,
+    CONSTRAINT "Linee_pkey" PRIMARY KEY ("NumLinea")
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public."Linee"
+    OWNER to postgres;
+
+
+
+
+
+
+CREATE TABLE public."Autisti"
+(
+    "Matricola" character varying(5) NOT NULL,
+    "Cognome" character varying(30) NOT NULL,
+    "Nome" character varying(25) NOT NULL,
+    "Telefono" character varying(10),
+    PRIMARY KEY ("Matricola")
+);
+
+ALTER TABLE IF EXISTS public."Autisti"
+    OWNER to postgres;
+
+COMMENT ON TABLE public."Autisti"
+    IS 'Rappresenta le informazioni relative agli autisti';
+
+
+
+
+
+
+
+
+
+-- Table: public.Autobus
+
+-- DROP TABLE IF EXISTS public."Autobus";
+
+CREATE TABLE IF NOT EXISTS public."Autobus"
+(
+    "Targa" character varying(5) COLLATE pg_catalog."default" NOT NULL,
+    "Modello" character varying(7) COLLATE pg_catalog."default" NOT NULL,
+    "Capienza" integer NOT NULL DEFAULT 0,
+    CONSTRAINT "Autobus_pkey" PRIMARY KEY ("Targa")
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public."Autobus"
+    OWNER to postgres;
+
+COMMENT ON TABLE public."Autobus"
+    IS 'Tabella che rappresenta le informazioni sugli autobus';
+
+
+
+
+
+
+
+
+
+
+
+CREATE TABLE public."Turni"
+(
+    "ID" bigint NOT NULL GENERATED ALWAYS AS IDENTITY,
+    "Data" date NOT NULL,
+    "OraInizio" time without time zone NOT NULL,
+    "OraFine" time without time zone NOT NULL,
+    "NumLinea" character varying(2) NOT NULL,
+    "Targa" character varying(5) NOT NULL,
+    "Matricola" character varying(5) NOT NULL,
+    PRIMARY KEY ("ID")
+);
+
+ALTER TABLE IF EXISTS public."Turni"
+    OWNER to postgres;
+
+COMMENT ON TABLE public."Turni"
+    IS 'Rappresenta i turni dei vari autisti';
+
+
+
+
+
+
+############################ INTEGRITà REFERENZIALI ############################################
+
+ALTER TABLE IF EXISTS public."Turni"
+    ADD CONSTRAINT "Turni_Linee_NumLinea" FOREIGN KEY ("NumLinea")
+    REFERENCES public."Linee" ("NumLinea") MATCH SIMPLE
+    ON UPDATE CASCADE
+    ON DELETE CASCADE
+    NOT VALID;
+
+
+
+
+
+ALTER TABLE IF EXISTS public."Turni"
+    ADD CONSTRAINT "Turni_Autisti_Matricola" FOREIGN KEY ("Matricola")
+    REFERENCES public."Autisti" ("Matricola") MATCH SIMPLE
+    ON UPDATE CASCADE
+    ON DELETE CASCADE
+    NOT VALID;
+
+
+
+
+ALTER TABLE IF EXISTS public."Turni"
+    ADD CONSTRAINT "Turni_Autobus_Targa" FOREIGN KEY ("Targa")
+    REFERENCES public."Autobus" ("Targa") MATCH SIMPLE
+    ON UPDATE CASCADE
+    ON DELETE CASCADE
+    NOT VALID;
+
+COMMENT ON CONSTRAINT "Turni_Autobus_Targa" ON public."Turni"
+    IS 'Reference tra tabella Turni e tabella Autobus';
+
+
+
+
+
+
+
+
+
+
+

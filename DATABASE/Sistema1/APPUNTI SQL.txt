@@ -1,0 +1,12 @@
+CREATE TABLE Dipartimenti(Codice char(5),Descrizione char(20) not null,Sede char(20),Manager smallint,Primary Key (Codice), //chiave primariaUnique (Descrizione),Foreign Key (Manager) references Impiegati (ID) //Manager è chiave esternaOn Delete set nullOn Update cascade);
+
+On Delete set null significa che è permessa la cancellazione di una riga di Impiegati
+ e i valori di Manager corrispondenti assumono valore nullo.
+
+On Update cascade significa che l'aggiornamento di un ID associato a Manager si riflette a catena sui valori di Manager.
+
+On Delete no action e On Update no action impediscono di cancellare un record della tabella Impiegati correlato alla 
+chiave esterna di Dipartimenti o di modificare il valore della chiave primaria di un dipendente che è un manager in qualche dipartimento.
+
+
+  		

@@ -1,0 +1,34 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            targetNamespace="http://www.progetto.com/autista"
+            xmlns="http://www.progetto.com/autista"
+
+            xmlns:common="http://www.progetto.com/common"
+
+            elementFormDefault="qualified"
+
+>
+<!-- Imports -->
+    <xsd:import namespace="http://www.progetto.com/common"
+                schemaLocation="commonType.xsd" />
+
+    <xsd:element name="autista" type="AutistaType"/>
+
+    <!-- TODO: simpleContent
+        è utilizzato quando si desidera definire un elemento che ha un contenuto testuale semplice e,
+         contemporaneamente, estendere questo elemento aggiungendo attributi.
+    -->
+    <xsd:complexType name="AutistaType">
+        <xsd:complexContent>
+            <xsd:extension base="common:PersonaType">
+                <xsd:attribute name="codice" type="xsd:ID" use="required"/>
+                <xsd:attribute name="matricola" type="xsd:string" use="required"/>
+            </xsd:extension>
+        </xsd:complexContent>
+<!--        <xsd:sequence>-->
+<!--            <xsd:element name="persona" type="common:PersonaType"/>-->
+<!--        </xsd:sequence>-->
+
+    </xsd:complexType>
+
+
+</xsd:schema>

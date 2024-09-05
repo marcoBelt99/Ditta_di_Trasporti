@@ -1,0 +1,106 @@
+# Elenco dei turni
+GET http://localhost:8080/ditta/api/turni
+Accept: application/json
+
+###
+
+# Storico dei turni svolti da un determinato autista
+# GET http://localhost:8080/ditta/api/turni/autisti/2
+GET http://localhost:8080/ditta/api/turni/autisti/12
+Accept: application/json
+
+###
+
+# Elenco dei turni svolti da un determinato autista in un determinato mese
+GET http://localhost:8080/ditta/api/turni/autisti/2/marzo
+Accept: application/json
+
+###
+
+# Inserimento di un nuovo turno
+POST http://localhost:8080/ditta/api/turni
+Accept: application/json
+Content-Type: application/json
+
+
+{
+ "data" : "2024-06-18",
+  "oraInizio" : "08:30:00",
+  "oraFine" : "16:30:00",
+  "targa" : "HJK789UIOP",
+  "numLinea" : 1,
+  "idUtente" : 18
+}
+
+
+###
+
+# Inserimento di un batch di turni
+POST http://localhost:8080/ditta/api/turni/batch
+Accept: application/json
+Content-Type: application/json
+
+[
+  {
+    "data" : "2024-06-10",
+    "oraInizio" : "09:30:00",
+    "oraFine" : "14:30:00",
+    "targa" : "JKL123MNBV",
+    "numLinea" : 4,
+    "idUtente" : 12
+  },
+
+  {
+    "data" : "2024-06-11",
+    "oraInizio" : "08:30:00",
+    "oraFine" : "15:30:00",
+    "targa" : "DEF456WXYZ",
+    "numLinea" : 5,
+    "idUtente" : 12
+  },
+
+  {
+    "data" : "2024-06-12",
+    "oraInizio" : "07:25:00",
+    "oraFine" : "14:30:00",
+    "targa" : "RTY901CVBN",
+    "numLinea" : 6,
+    "idUtente" : 12
+  },
+
+  {
+    "data" : "2024-06-13",
+    "oraInizio" : "13:30:00",
+    "oraFine" : "21:30:00",
+    "targa" : "ZXC234FGHI",
+    "numLinea" : 7,
+    "idUtente" : 12
+  },
+
+  {
+    "data" : "2024-06-14",
+    "oraInizio" : "12:30:00",
+    "oraFine" : "19:30:00",
+    "targa" : "ASD123NBVC",
+    "numLinea" : 11,
+    "idUtente" : 12
+  },
+
+  {
+    "data" : "2024-06-15",
+    "oraInizio" : "12:00:00",
+    "oraFine" : "20:30:00",
+    "targa" : "PQR345STUV",
+    "numLinea" : 12,
+    "idUtente" : 12
+  },
+
+  {
+    "data" : "2024-06-16",
+    "oraInizio" : "11:30:00",
+    "oraFine" : "16:30:00",
+    "targa" : "BVC345UIOA",
+    "numLinea" : 1,
+    "idUtente" : 12
+  }
+]

@@ -1,0 +1,38 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            targetNamespace="http://www.progetto.com/linea"
+            xmlns="http://www.progetto.com/linea"
+
+            elementFormDefault="qualified">
+
+    <xsd:element name="linea" type="LineaType"/>
+
+    <xsd:complexType name="LineaType">
+        <xsd:sequence>
+            <xsd:element name="destinazione" type="DestinazioneType" />
+        </xsd:sequence>
+    <xsd:attribute name="codice" type="xsd:ID" use="required"/>
+    <xsd:attribute name="num_linea" type="xsd:positiveInteger" use="required"/>
+    </xsd:complexType>
+
+    <xsd:simpleType name="DestinazioneType">
+       <xsd:restriction base="xsd:string">
+           <xsd:enumeration value="Ferrara - Stazione"/>
+           <xsd:enumeration value="Ferrara - Aleotti"/>
+           <xsd:enumeration value="Ferrara - Centro"/>
+           <xsd:enumeration value="Ferrara - Nord"/>
+           <xsd:enumeration value="Ferrara - Sud"/>
+           <xsd:enumeration value="Ferrara - Est"/>
+           <xsd:enumeration value="Ferrara - Ovest"/>
+           <xsd:enumeration value="Ferrara - Fiere"/>
+           <xsd:enumeration value="Ferrara - Boschetti"/>
+           <xsd:enumeration value="Ferrara - Cona"/>
+           <xsd:enumeration value="Rovigo"/>
+           <xsd:enumeration value="Adria"/>
+           <xsd:enumeration value="Ariano nel Polesine"/>
+           <xsd:enumeration value="Porto Tolle"/>
+           <xsd:enumeration value="Chioggia"/>
+           <xsd:enumeration value="Padova"/>
+
+       </xsd:restriction>
+    </xsd:simpleType>
+</xsd:schema>

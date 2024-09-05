@@ -1,0 +1,107 @@
+# Lista di tutti gli utenti (quindi di tutti gli autisti)
+GET http://localhost:8080/ditta/api/admin/utenti
+Accept: application/json
+
+###
+
+# Lista di tutti gli autisti che hanno un determinato cognome
+GET http://localhost:8080/ditta/api/admin/utenti/cognome/Beltrame
+# GET http://localhost:8080/ditta/api/admin/utenti/cognome/Bonfe
+Accept: application/json
+
+###
+
+# Lista di tutti gli autisti che hanno un determinato cognome. (Test del case insensitive)
+GET http://localhost:8080/ditta/api/admin/utenti/cognome/bonfe
+Accept: application/json
+
+
+###
+
+
+# Ultimo id utente inserito
+GET http://localhost:8080/ditta/api/admin/utenti/lastid
+Accept: text/plain
+
+
+###
+
+
+# Inserimento di un nuovo utente (cioè di un nuovo autista)
+POST http://localhost:8080/ditta/api/admin/utenti
+Accept: application/json
+Content-Type: application/json
+
+{
+
+  "matricola" : "13333",
+  "nome" : "Massimo",
+  "cognome" : "Gennaro",
+  "telefono" : "344441122",
+
+  "username" : "maxgen",
+  "password" : "passwd"
+}
+
+###
+
+POST http://localhost:8080/ditta/api/admin/utenti
+Accept: application/json
+Content-Type: application/json
+
+{
+"matricola" : "14111",
+"nome" : "Forza",
+"cognome" : "Mattia",
+"telefono" : "3122566421",
+
+"username" : "matti_forza",
+"password" : "1234mf"
+}
+
+
+###
+
+# Elinazione di un determinato autista
+# DELETE http://localhost:8080/ditta/api/admin/utenti/24
+DELETE http://localhost:8080/ditta/api/admin/utenti/20
+###
+# Test di eliminazione utente amministratore
+DELETE http://localhost:8080/ditta/api/admin/utenti/1
+
+###
+
+# Modifica dei dati di un utente
+PUT http://localhost:8080/ditta/api/admin/utenti/6
+Accept: application/json
+Content-Type: application/json
+
+{
+"matricola" : "12347",
+"nome" : "Filippo",
+"cognome" : "Ghiro",
+"telefono" : "3697499999",
+
+
+"username" : "pippo_calippo",
+"password" : "trantrantrantran"
+}
+
+###
+
+# Modifica dei dati di un utente
+PUT http://localhost:8080/ditta/api/admin/utenti/24
+Accept: application/json
+Content-Type: application/json
+
+{
+  "matricola": "12225",
+"nome" : "Marietta",
+"cognome" : "Grazietta",
+"telefono" : "3995555559",
+
+
+"username" : "MMMAAARRRIIIAAA",
+"password" : "rapallo"
+}
+

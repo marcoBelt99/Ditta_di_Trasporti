@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  db:
+    image: postgres:14-alpine
+    container_name: db_postgres_progretto_psw
+    environment:
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: ditta_trasporti
+    ports:
+      - "5429:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+
+volumes:
+  postgres_data:

@@ -1,0 +1,118 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            targetNamespace="http://www.progetto.com/ditta"
+            xmlns="http://www.progetto.com/ditta"
+
+            xmlns:common="http://www.progetto.com/common"
+            xmlns:aut="http://www.progetto.com/autista"
+            xmlns:lin="http://www.progetto.com/linea"
+            xmlns:bus="http://www.progetto.com/autobus"
+            xmlns:tur="http://www.progetto.com/turno"
+
+            elementFormDefault="qualified"
+>
+
+    <!-- TODO: IMPORTS -->
+    <xsd:import schemaLocation="commonType.xsd"
+                namespace="http://www.progetto.com/common"/>
+
+    <xsd:import schemaLocation="autista.xsd"
+                namespace="http://www.progetto.com/autista" />
+
+    <xsd:import schemaLocation="linea.xsd"
+                namespace="http://www.progetto.com/linea" />
+
+    <xsd:import schemaLocation="autobus.xsd"
+                namespace="http://www.progetto.com/autobus" />
+
+    <xsd:import schemaLocation="turno.xsd"
+                namespace="http://www.progetto.com/turno" />
+
+
+   <!-- TODO: elemento principale -->
+    <xsd:element name="ditta" type="DittaType"/>
+
+    <xsd:complexType name="DittaType">
+        <xsd:sequence>
+            <xsd:element name="nome" type="xsd:string"/>
+            <xsd:element name="indirizzo" type="IndirizzoType"/>
+            <xsd:element name="descrizione" type="xsd:string"/>
+            <xsd:element name="autisti" type="AutistiType" />
+            <xsd:element name="linee" type="LineeType" />
+            <xsd:element name="bus" type="BusType" />
+            <xsd:element name="turni" type="TurniType"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+
+    <xsd:complexType name="IndirizzoType">
+        <xsd:sequence>
+            <xsd:element name="via" type="xsd:string"/>
+            <xsd:element name="cap" type="common:CAPType"/>
+            <xsd:element name="citta" type="xsd:string"/>
+            <xsd:element name="provincia" type="ProvinciaType"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="ProvinciaType">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:string">
+                <xsd:attribute name="codice" type="common:CodiceProvinciaType"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+
+
+    <xsd:complexType name="AutistiType">
+        <xsd:sequence>
+            <xsd:element name="autista" type="AutistaType" maxOccurs="unbounded"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="LineeType">
+        <xsd:sequence>
+            <xsd:element name="linea" type="LineaType" maxOccurs="unbounded"  />
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="BusType">
+        <xsd:sequence>
+            <xsd:element name="autobus" type="AutobusType" maxOccurs="unbounded" />
+        </xsd:sequence>
+    </xsd:complexType>
+
+
+    <xsd:complexType name="AutistaType">
+        <xsd:complexContent>
+            <xsd:extension base="aut:AutistaType">
+<!--                <xsd:attribute name="codice" type="xsd:ID" />-->
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="LineaType">
+        <xsd:complexContent>
+            <xsd:extension base="lin:LineaType">
+<!--                <xsd:attribute name="codice" type="xsd:ID" />-->
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="AutobusType">
+        <xsd:complexContent>
+            <xsd:extension base="bus:AutobusType">
+<!--                <xsd:attribute name="codice" type="xsd:ID" />-->
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+
+    <xsd:complexType name="TurniType">
+        <xsd:sequence>
+        <xsd:element ref="tur:turno" maxOccurs="unbounded"/>
+<!--            <xsd:element name="turno" type="tur:TurnoType" maxOccurs="unbounded"/>-->
+        </xsd:sequence>
+    </xsd:complexType>
+
+
+
+</xsd:schema>
